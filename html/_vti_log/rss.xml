@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>New Questions</title>
+    <link>http://www.hn-books.com/</link>
+    <description>New Questions people people would like to have the best books to answer</description>
+    <lastBuildDate>Mon, 25 Oct 2010 18:37:00 GMT</lastBuildDate>
+    <language>en-us</language>
+    <webMaster>Daniel@hn-books.com</webMaster>
+    <image>
+      <url>http://hn-books.com/images/books1.gif</url>
+      <title>hn-books: books for hackers recommended by hackers</title>
+      <link>http://hn-books.com/</link>
+      <width>48</width>
+      <height>48</height>
+    </image>
+    <item>
+      <title>Sample Item</title>
+      <link>http://example.org/item/1</link>
+      <description>RSS Feeds on this are manually added. Apologies ahead of time for errors and omissions.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>Information</category>
+      <comments></comments>
+      <pubDate>Sat, 30 Oct 2010 00:00:01 GMT</pubDate>
+    </item>
+  </channel>
+  <channel>
+    <title>New Books</title>
+    <link>http://www.hn-books.com/</link>
+    <description>Latest books and buzz from hn-books</description>
+    <lastBuildDate>Mon, 25 Oct 2010 18:37:00 GMT</lastBuildDate>
+    <language>en-us</language>
+    <webMaster>Daniel@hn-books.com</webMaster>
+    <image>
+      <url>http://hn-books.com/images/books1.gif</url>
+      <title>hn-books: books for hackers recommended by hackers</title>
+      <link>http://hn-books.com/</link>
+      <width>48</width>
+      <height>48</height>
+    </image>
+    <item>
+      <title>A Deepness In The Sky</title>
+      <link>http://hn-books.com/Books/A-Deepness-In-The-Sky.htm</link>
+      <description>Excellent Sci-Fi book for hackers.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>Sci-Fi</category>
+      <comments>This is the first HN-Books Review.</comments>
+      <pubDate>Wed, 2 Feb 2011 17:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Slaughterhouse-Five</title>
+      <link>http://www.hn-books.com/Books/Slaughterhouse-Five.htm</link>
+      <description>Great sci-fi and a rite of passage for sci-fi readers</description>
+      <author>Daniel@hn-books.com</author>
+      <category>Sci-Fi</category>
+      <comments></comments>
+      <pubDate>Wed, 23 Mar 2011 7:00:01 GMT</pubDate>
+    </item>  
+  </channel>
+  <channel>
+    <title>New Reviews</title>
+    <link>http://www.hn-books.com/</link>
+    <description>The latest technical/practical reviews from HN-Books</description>
+    <lastBuildDate>Mon, 25 Oct 2010 18:37:00 GMT</lastBuildDate>
+    <language>en-us</language>
+    <webMaster>Daniel@hn-books.com</webMaster>
+    <image>
+      <url>http://hn-books.com/images/books1.gif</url>
+      <title>hn-books: books for hackers recommended by hackers</title>
+      <link>http://hn-books.com/</link>
+      <width>48</width>
+      <height>48</height>
+    </image>
+    <item>
+      <title>A Guide to the Good Life: The Ancient Art of Stoic Joy</title>
+      <link>http://www.hn-books.com/Books/A-Guide-to-the-Good-Life-The-Ancient-Art-of-Stoic-Joy.htm</link>
+      <description>An excellent book for those wanting to optimize their productivity and their life. It teaches how to handle both successes and failures better and achieve tranquility and joy while doing so.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How To Hack Stuff</category>
+      <comments>This is the first HN-Books Review.</comments>
+      <pubDate>Mon, 15 Nov 2010 17:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Sparrow</title>
+      <link>http://hn-books.com/Books/The-Sparrow.htm</link>
+      <description>One of the best sci-fi books of the 1990s, The Sparrow delivers on a lot of hacker goodness</description>
+      <author>Daniel@hn-books.com</author>
+      <category>Sci-Fi</category>
+      <comments>If you want to read sci-fi, this is the best sci-fi I've read in a long time.</comments>
+      <pubDate>Mon, 3 Jan 2011 17:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Art of  SEO</title>
+      <link>http://www.hn-books.com/Books/The-Art-Of-SEO.htm</link>
+      <description>What's the one thing any startup needs? Exposure. Customers. Conversations. SEO is the most powerful way to get those things, and startups that use SEO effectively will do better in the long run than those who don't. Check out the new review and decide for yourself. Also we've added new "add this" buttons to the site. Be sure to try them out and let us know if they work for you!</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to tell people about your startup</category>
+      <comments></comments>
+      <pubDate>Tue, 11 Jan 2011 15:50:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Start Small, Stay Small</title>
+      <link>http://www.hn-books.com/Books/Start-Small-Stay-Small.htm</link>
+      <description>This is a book written directly to you hackers out there who have dreams of running your own startup. Sound, practical, great advice I wish somebody had given me when I got started</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to run a killer startup</category>
+      <comments></comments>
+      <pubDate>Tue, 24 Jan 2011 13:50:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>A Deepness In The Sky</title>
+      <link>http://hn-books.com/Books/A-Deepness-In-The-Sky.htm</link>
+      <description>Great science fiction for hackers. If you want something more than space opera, Vinge delivers. Lots of science, coding, and physics.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>Sci-Fi</category>
+      <comments></comments>
+      <pubDate>Wed, 2 Feb 2011 14:50:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance</title>
+      <link>http://hn-books.com/Books/Zen-And-The-Art-Of-Motorcycle-Maintenance.htm</link>
+      <description>A hacker's book, ZAAM is the story of a man coming to grips with his sanity and being a father, using the only tool he has available: philosophy. A great introduction into philosophy, and a primer on how to integrate technology into your life spiritually.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to Hack Stuff</category>
+      <comments></comments>
+      <pubDate>Mon, 7 Feb 2011 15:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>SEOMoz</title>
+      <link>http://www.hn-books.com/Books/SEOMoz.htm</link>
+      <description>If you want to find customers and find out their needs, you're going to have to learn how to attract readers to your site without paying for expensive ads. SEOMoz helps you do that.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to run a killer startup</category>
+      <comments></comments>
+      <pubDate>Mon, 14 Feb 2011 15:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mythical Man-Month</title>
+      <link>http://www.hn-books.com/Books/The-Mythical-Man-Month.htm</link>
+      <description>One of a very few books that truly stand as a classic in the field, MMM is both a fun romp through how a huge computer project got done 40 years ago and a collection of poignant observations about the mistakes we always make when creating such projects. A foundational read.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to run a killer startup</category>
+      <comments></comments>
+      <pubDate>Mon, 21 Feb 2011 12:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Code Complete</title>
+      <link>http://www.hn-books.com/Books/Code-Complete.htm</link>
+      <description>The best book on programming once you learn the mechanics</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to be a better programmer</category>
+      <comments></comments>
+      <pubDate>Mon, 25 Feb 2011 15:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Pragmatic Programmer: From Journeyman to Master</title>
+      <link>http://www.hn-books.com/Books/The-Pragmatic-Programmer.htm</link>
+      <description>If you know how to code but want to learn how to master being a programmer, this is the book</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to be a better programmer</category>
+      <comments></comments>
+      <pubDate>Mon, 25 Feb 2011 15:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Slaughterhouse-Five</title>
+      <link>http://www.hn-books.com/Books/Slaughterhouse-Five.htm</link>
+      <description>Perhaps a little dated from the 1970s, and playing better to a young audience than an older one, Kurt Vonnegut's Slaughterhouse-Five is a sci-fi classic and a must-read rite-of-passage for hackers.</description>
+      <author>Daniel@hn-books.com</author>
+      <category>How to be a better programmer</category>
+      <comments></comments>
+      <pubDate>Wed, 23 Mar 2011 7:00:01 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

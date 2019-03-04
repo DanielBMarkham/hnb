@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Art of UNIX Programming Review</title>
+    <link rel="SHORTCUT ICON" href="http://www.hn-books.com/favicon.ico"/>
+    <link rel="canonical" href="http://hn-books.com/Books/The-Art-Of-UNIX-Programming.htm" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://hn-books.com/rss.xml" /> 
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Meta-reviews, Commentary, and A Critical Eye on 'The Art of UNIX Programming'" />    <meta property="fb:admins" content="648707353"/>    <meta property="fb:app_id" content="199301083424171">    <link rel="stylesheet" href="http://www.hn-books.com/css/AllMin1.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.hn-books.com/css/print.css" type="text/css" media="print" />
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<link rel="stylesheet" href="http://www.hn-books.com/css/v1Main.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" id="livefyre-css" href="http://livefyre.com/css/compressed_embed.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://livefyre.com/javascripts/livefyre.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"
+		type="text/javascript"></script>
+    <script type="text/javascript">
+        (function (b, gb) { var v = "none", t = "click", N = "LoadedContent", d = false, x = "resize.", o = "y", u = "auto", f = true, M = "nofollow", q = "on", n = "x"; function e(a, c) { a = a ? ' id="' + k + a + '"' : ""; c = c ? ' style="' + c + '"' : ""; return b("<div" + a + c + "/>") } function p(a, b) { b = b === n ? m.width() : m.height(); return typeof a === "string" ? Math.round(a.match(/%/) ? b / 100 * parseInt(a, 10) : parseInt(a, 10)) : a } function Q(c) { c = b.isFunction(c) ? c.call(h) : c; return a.photo || c.match(/\.(gif|png|jpg|jpeg|bmp)(?:\?([^#]*))?(?:#(\.*))?$/i) } function cb() { for (var c in a) if (b.isFunction(a[c]) && c.substring(0, 2) !== q) a[c] = a[c].call(h); a.rel = a.rel || h.rel || M; a.href = a.href || b(h).attr("href"); a.title = a.title || h.title } function db(d) { h = d; a = b.extend({}, b(h).data(r)); cb(); if (a.rel !== M) { i = b("." + H).filter(function () { return (b(this).data(r).rel || this.rel) === a.rel }); g = i.index(h); if (g === -1) { i = i.add(h); g = i.length - 1 } } else { i = b(h); g = 0 } if (!w) { w = F = f; R = h; try { R.blur() } catch (e) { } b.event.trigger(hb); a.onOpen && a.onOpen.call(h); y.css({ opacity: +a.opacity, cursor: a.overlayClose ? "pointer" : u }).show(); a.w = p(a.initialWidth, n); a.h = p(a.initialHeight, o); c.position(0); S && m.bind(x + O + " scroll." + O, function () { y.css({ width: m.width(), height: m.height(), top: m.scrollTop(), left: m.scrollLeft() }) }).trigger("scroll." + O) } T.add(I).add(J).add(z).add(U).hide(); V.html(a.close).show(); c.slideshow(); c.load() } var eb = { transition: "elastic", speed: 300, width: d, initialWidth: "600", innerWidth: d, maxWidth: d, height: d, initialHeight: "450", innerHeight: d, maxHeight: d, scalePhotos: f, scrolling: f, inline: d, html: d, iframe: d, photo: d, href: d, title: d, rel: d, opacity: .9, preloading: f, current: "image {current} of {total}", previous: "previous", next: "next", close: "close", open: d, loop: f, slideshow: d, slideshowAuto: f, slideshowSpeed: 2500, slideshowStart: "start slideshow", slideshowStop: "stop slideshow", onOpen: d, onLoad: d, onComplete: d, onCleanup: d, onClosed: d, overlayClose: f, escKey: f, arrowKey: f }, r = "colorbox", k = "cbox", hb = k + "_open", P = k + "_load", W = k + "_complete", X = k + "_cleanup", fb = k + "_closed", G = b.browser.msie && !b.support.opacity, S = G && b.browser.version < 7, O = k + "_IE6", y, j, E, s, Y, Z, ab, bb, i, m, l, K, L, U, T, z, J, I, V, C, D, A, B, h, R, g, a, w, F, c, H = k + "Element"; c = b.fn[r] = b[r] = function (c, d) { var a = this; if (!a[0] && a.selector) return a; c = c || {}; if (d) c.onComplete = d; if (!a[0] || a.selector === undefined) { a = b("<a/>"); c.open = f } a.each(function () { b(this).data(r, b.extend({}, b(this).data(r) || eb, c)).addClass(H) }); c.open && db(a[0]); return a }; c.init = function () { var h = "hover"; m = b(gb); j = e().attr({ id: r, "class": G ? k + "IE" : "" }); y = e("Overlay", S ? "position:absolute" : "").hide(); E = e("Wrapper"); s = e("Content").append(l = e(N, "width:0; height:0"), L = e("LoadingOverlay").add(e("LoadingGraphic")), U = e("Title"), T = e("Current"), J = e("Next"), I = e("Previous"), z = e("Slideshow"), V = e("Close")); E.append(e().append(e("TopLeft"), Y = e("TopCenter"), e("TopRight")), e().append(Z = e("MiddleLeft"), s, ab = e("MiddleRight")), e().append(e("BottomLeft"), bb = e("BottomCenter"), e("BottomRight"))).children().children().css({ "float": "left" }); K = e(d, "position:absolute; width:9999px; visibility:hidden; display:none"); b("body").prepend(y, j.append(E, K)); s.children().hover(function () { b(this).addClass(h) }, function () { b(this).removeClass(h) }).addClass(h); C = Y.height() + bb.height() + s.outerHeight(f) - s.height(); D = Z.width() + ab.width() + s.outerWidth(f) - s.width(); A = l.outerHeight(f); B = l.outerWidth(f); j.css({ "padding-bottom": C, "padding-right": D }).hide(); J.click(c.next); I.click(c.prev); V.click(c.close); s.children().removeClass(h); b("." + H).live(t, function (a) { if (a.button !== 0 && typeof a.button !== "undefined" || a.ctrlKey || a.shiftKey || a.altKey) return f; else { db(this); return d } }); y.click(function () { a.overlayClose && c.close() }); b(document).bind("keydown", function (b) { if (w && a.escKey && b.keyCode === 27) { b.preventDefault(); c.close() } if (w && a.arrowKey && !F && i[1]) if (b.keyCode === 37 && (g || a.loop)) { b.preventDefault(); I.click() } else if (b.keyCode === 39 && (g < i.length - 1 || a.loop)) { b.preventDefault(); J.click() } }) }; c.remove = function () { j.add(y).remove(); b("." + H).die(t).removeData(r).removeClass(H) }; c.position = function (f, b) { function c(a) { Y[0].style.width = bb[0].style.width = s[0].style.width = a.style.width; L[0].style.height = L[1].style.height = s[0].style.height = Z[0].style.height = ab[0].style.height = a.style.height } var e, h = Math.max(m.height() - a.h - A - C, 0) / 2 + m.scrollTop(), g = Math.max(m.width() - a.w - B - D, 0) / 2 + m.scrollLeft(); e = j.width() === a.w + B && j.height() === a.h + A ? 0 : f; E[0].style.width = E[0].style.height = "9999px"; j.dequeue().animate({ width: a.w + B, height: a.h + A, top: h, left: g }, { duration: e, complete: function () { c(this); F = d; E[0].style.width = a.w + B + D + "px"; E[0].style.height = a.h + A + C + "px"; b && b() }, step: function () { c(this) } }) }; c.resize = function (b) { if (w) { b = b || {}; if (b.width) a.w = p(b.width, n) - B - D; if (b.innerWidth) a.w = p(b.innerWidth, n); l.css({ width: a.w }); if (b.height) a.h = p(b.height, o) - A - C; if (b.innerHeight) a.h = p(b.innerHeight, o); if (!b.innerHeight && !b.height) { b = l.wrapInner("<div style='overflow:auto'></div>").children(); a.h = b.height(); b.replaceWith(b.children()) } l.css({ height: a.h }); c.position(a.transition === v ? 0 : a.speed) } }; c.prep = function (o) { var d = "hidden"; function n(t) { var o, q, s, n, d = i.length, e = a.loop; c.position(t, function () { function t() { G && j[0].style.removeAttribute("filter") } if (w) { G && p && l.fadeIn(100); a.iframe && b("<iframe frameborder=0" + (a.scrolling ? "" : " scrolling='no'") + (G ? " allowtransparency='true'" : "") + "/>").attr({ src: a.href, name: (new Date).getTime() }).appendTo(l); l.show(); U.show().html(a.title); if (d > 1) { T.html(a.current.replace(/\{current\}/, g + 1).replace(/\{total\}/, d)).show(); J[e || g < d - 1 ? "show" : "hide"]().html(a.next); I[e || g ? "show" : "hide"]().html(a.previous); o = g ? i[g - 1] : i[d - 1]; s = g < d - 1 ? i[g + 1] : i[0]; if (a.slideshow) { z.show(); g === d - 1 && !e && j.is("." + k + "Slideshow_on") && z.click() } if (a.preloading) { n = b(s).data(r).href || s.href; q = b(o).data(r).href || o.href; if (Q(n)) b("<img/>")[0].src = n; if (Q(q)) b("<img/>")[0].src = q } } L.hide(); a.transition === "fade" ? j.fadeTo(f, 1, function () { t() }) : t(); m.bind(x + k, function () { c.position(0) }); b.event.trigger(W); a.onComplete && a.onComplete.call(h) } }) } if (w) { var p, f = a.transition === v ? 0 : a.speed; m.unbind(x + k); l.remove(); l = e(N).html(o); l.hide().appendTo(K.show()).css({ width: function () { a.w = a.w || l.width(); a.w = a.mw && a.mw < a.w ? a.mw : a.w; return a.w } (), overflow: a.scrolling ? u : d }).css({ height: function () { a.h = a.h || l.height(); a.h = a.mh && a.mh < a.h ? a.mh : a.h; return a.h } () }).prependTo(s); K.hide(); b("#" + k + "Photo").css({ cssFloat: v }); S && b("select").not(j.find("select")).filter(function () { return this.style.visibility !== d }).css({ visibility: d }).one(X, function () { this.style.visibility = "inherit" }); a.transition === "fade" ? j.fadeTo(f, 0, function () { n(0) }) : n(f) } }; c.load = function () { var j, d, q, m = c.prep; F = f; h = i[g]; a = b.extend({}, b(h).data(r)); cb(); b.event.trigger(P); a.onLoad && a.onLoad.call(h); a.h = a.height ? p(a.height, o) - A - C : a.innerHeight && p(a.innerHeight, o); a.w = a.width ? p(a.width, n) - B - D : a.innerWidth && p(a.innerWidth, n); a.mw = a.w; a.mh = a.h; if (a.maxWidth) { a.mw = p(a.maxWidth, n) - B - D; a.mw = a.w && a.w < a.mw ? a.w : a.mw } if (a.maxHeight) { a.mh = p(a.maxHeight, o) - A - C; a.mh = a.h && a.h < a.mh ? a.h : a.mh } j = a.href; L.show(); if (a.inline) { e("InlineTemp").hide().insertBefore(b(j)[0]).bind(P + " " + X, function () { b(this).replaceWith(l.children()) }); m(b(j)) } else if (a.iframe) m(" "); else if (a.html) m(a.html); else if (Q(j)) { d = new Image; d.onload = function () { var e; d.onload = null; d.id = k + "Photo"; b(d).css({ margin: u, border: v, display: "block", cssFloat: "left" }); if (a.scalePhotos) { q = function () { d.height -= d.height * e; d.width -= d.width * e }; if (a.mw && d.width > a.mw) { e = (d.width - a.mw) / d.width; q() } if (a.mh && d.height > a.mh) { e = (d.height - a.mh) / d.height; q() } } if (a.h) d.style.marginTop = Math.max(a.h - d.height, 0) / 2 + "px"; setTimeout(function () { m(d) }, 1); i[1] && (g < i.length - 1 || a.loop) && b(d).css({ cursor: "pointer" }).click(c.next); if (G) d.style.msInterpolationMode = "bicubic" }; d.src = j } else e().appendTo(K).load(j, function (c, a, b) { m(a === "error" ? "Request unsuccessful: " + b.statusText : this) }) }; c.next = function () { if (!F) { g = g < i.length - 1 ? g + 1 : 0; c.load() } }; c.prev = function () { if (!F) { g = g ? g - 1 : i.length - 1; c.load() } }; c.slideshow = function () { function f() { z.text(a.slideshowStop).bind(W, function () { d = setTimeout(c.next, a.slideshowSpeed) }).bind(P, function () { clearTimeout(d) }).one(t, function () { e() }); j.removeClass(b + "off").addClass(b + q) } var e, d, b = k + "Slideshow_"; z.bind(fb, function () { z.unbind(); clearTimeout(d); j.removeClass(b + "off " + b + q) }); e = function () { clearTimeout(d); z.text(a.slideshowStart).unbind(W + " " + P).one(t, function () { f(); d = setTimeout(c.next, a.slideshowSpeed) }); j.removeClass(b + q).addClass(b + "off") }; if (a.slideshow && i[1]) a.slideshowAuto ? f() : e() }; c.close = function () { if (w) { w = d; b.event.trigger(X); a.onCleanup && a.onCleanup.call(h); m.unbind("." + k + " ." + O); y.fadeTo("fast", 0); j.stop().fadeTo("fast", 0, function () { j.find("iframe").attr("src", "about:blank"); l.remove(); j.add(y).css({ opacity: 1, cursor: u }).hide(); try { R.focus() } catch (c) { } setTimeout(function () { b.event.trigger(fb); a.onClosed && a.onClosed.call(h) }, 1) }) } }; c.element = function () { return b(h) }; c.settings = eb; b(c.init) })(jQuery, this)
+    </script>
+    <script src="http://www.hn-books.com/scripts/AllMin1.js" type="text/javascript"></script>
+
+    <script src="http://www.hn-books.com/scripts/v1BookData.js"  type="text/javascript"></script>
+    <script src="http://www.hn-books.com/scripts/v1Main.js" type="text/javascript"></script>
+    <script src="http://www.google.com/jsapi?key=ABQIAAAAfm16J2zzmmtwSBocBfSEDxSBh6ZyOshw_XBC_ND1JWCXea4NMhSrjHxiQ4vCjBuITjRywgmSGB0TJw"
+        type="text/javascript"></script>
+    <script language="Javascript" type="text/javascript">
+    //<![CDATA[
+        google.load("search", "1");
+        var searchArray = [];
+        function addPaginationLinks(searchArrayInx, placementDiv) {
+            searchVar = searchArray[searchArrayInx];
+            contentDiv = document.getElementById(placementDiv);
+            // The cursor object has all things to do with pagination
+            var cursor = searchVar.cursor;
+            if (null != cursor) {
+                var curPage = cursor.currentPageIndex; // check what page the app is on
+                var pagesDiv = document.createElement('div');
+                for (var i = 0; i < cursor.pages.length; i++) {
+                    var page = cursor.pages[i];
+                    if (curPage == i) { // if we are on the curPage, then don't make a link
+                        var label = document.createTextNode(' ' + page.label + ' ');
+                        pagesDiv.appendChild(label);
+                    } else {
+                        // If we aren't on the current page, then we want a link to this page.
+                        // So we create a link that calls the gotoPage() method on the searcher.
+                        var link = document.createElement('a');
+                        hr = 'javascript:searchArray[' + searchArrayInx + '].gotoPage(' + i + ');';
+                        link.href = hr;  //'javascript:hnSearch.gotoPage('+i+');';
+                        link.innerHTML = page.label;
+                        link.style.marginRight = '2px';
+                        pagesDiv.appendChild(link);
+                    }
+                }
+                contentDiv.appendChild(pagesDiv);
+            }
+        }
+        function searchComplete(placementDiv, searchArrayInx) {
+            searchVar = searchArray[searchArrayInx];
+            var contentDiv = document.getElementById(placementDiv);
+            // Check that we got results
+            if (searchVar.results && searchVar.results.length > 0) {
+                // Grab our content div, clear it.
+                contentDiv.innerHTML = '';
+
+                // Loop through our results, printing them to the page.
+                var results = searchVar.results;
+                for (var i = 0; i < results.length; i++) {
+                    // For each result write it's title and image to the screen
+                    var result = results[i];
+                    var masterDiv = document.createElement('div');
+                    masterDiv.setAttribute("class", "ui-widget-content");
+
+                    var titleContainer = document.createElement('div');
+                    titleContainer.setAttribute("class", "searchTitle");
+
+                    var targetAnchor = document.createElement('a');
+                    urlTemp = "";
+                    if (null != result.unescapedUrl) {
+                        urlTemp = result.unescapedUrl;
+                    }
+                    else if (null != result.postUrl) {
+                        urlTemp = result.postUrl;
+                    }
+                    else if (null != result.url) {
+                        urlTemp = result.url
+                    }
+                    // if it's an amazon link, add in my affiliate code
+                    if (urlTemp.indexOf("amazon") != -1)
+                        urlTemp += "?tag=whtofi-20";
+                    targetAnchor.href = urlTemp;
+
+                    var title = document.createElement('div');
+                    // We use titleNoFormatting so that no HTML tags are left in the title\
+                    // HN puts a | in the title, strip that
+                    titlePieces = result.titleNoFormatting.split(" | ");
+                    if (titlePieces.length > 1) {
+                        title.innerHTML = titlePieces[1];
+                    }
+                    else {
+                        title.innerHTML = titlePieces[0];
+                    }
+
+                    articleContent = result.content;
+                    articleContentDiv = document.createElement('div');
+                    articleContentDiv.setAttribute("class", "searchContent");
+                    articleContentDiv.innerHTML = articleContent;
+
+
+                    titleContainer.appendChild(title);
+                    masterDiv.appendChild(titleContainer);
+                    hrEle = document.createElement('hr');
+                    masterDiv.appendChild(hrEle);
+                    masterDiv.appendChild(articleContentDiv);
+                    targetAnchor.appendChild(masterDiv);
+
+                    contentDiv.appendChild(targetAnchor);
+                }
+                // Now add the paging links so the user can see more results.
+                addPaginationLinks(searchArrayInx, placementDiv);
+            }
+            else {
+                contentDiv.innerHTML = '<p><strong>No content found</strong></p>';
+            }
+
+        }
+        function hackernewsSearchComplete() { searchComplete("tabs-HackerNews", 0); }
+        function redditSearchComplete() { searchComplete("tabs-Reddit", 1); }
+        function dzoneSearchComplete() { searchComplete("tabs-DZone", 2); }
+        function slashdotSearchComplete() { searchComplete("tabs-Slashdot", 3); }
+        function amazonSearchComplete() { searchComplete("tabs-Amazon", 4); }
+        function videosSearchComplete() { searchComplete("tabs-Videos", 5); }
+        function blogsSearchComplete() { searchComplete("tabs-Blogs", 6); }
+        function makeSearch(searchSite, callback, searchString, arrIndx) {
+            searchArray[arrIndx] = new google.search.WebSearch();
+            searchArray[arrIndx].setSiteRestriction(searchSite);
+            searchArray[arrIndx].setResultSetSize(google.search.Search.LARGE_RESULTSET);
+            searchArray[arrIndx].setSearchCompleteCallback(this, callback, null)
+            searchArray[arrIndx].execute(searchString);
+        }
+
+        $(document).ready(function () {
+            makeSearch("news.ycombinator.com", hackernewsSearchComplete, '"The Art of UNIX Programming" book read', 0);
+            makeSearch("reddit.com", redditSearchComplete, '"The Art of UNIX Programming" book read', 1);
+            makeSearch("dzone.com", dzoneSearchComplete, '"The Art of UNIX Programming"', 2);
+            makeSearch("slashdot.org", slashdotSearchComplete, 'book read "The Art of UNIX Programming"', 3);
+            makeSearch("amazon.com/review", amazonSearchComplete, '"The Art of UNIX Programming"', 4);
+            searchArray[5] = new google.search.VideoSearch();
+            searchArray[5].setResultSetSize(google.search.Search.LARGE_RESULTSET);
+            searchArray[5].setSearchCompleteCallback(this, videosSearchComplete, null)
+            searchArray[5].execute('book read "The Art of UNIX Programming"');
+            searchArray[6] = new google.search.BlogSearch();
+            searchArray[6].setResultSetSize(google.search.Search.LARGE_RESULTSET);
+            searchArray[6].setSearchCompleteCallback(this, blogsSearchComplete, null)
+            searchArray[6].execute('book read "The Art of UNIX Programming"');
+            google.search.Search.getBranding(document.getElementById("googleBranding"));
+        });
+    //]]>
+    </script>
+</head>
+<body>
+    <div id="outerContainer">
+        <div id="header" class="ui-corner-all ui-widget-header">
+            <div id="logo">
+                <a href="http://hn-books.com"><img src="http://hn-books.com/images/icons/hnIconBooks1.png" alt="hnBooks Logo" width="42" height="42" /></a>
+            </div>
+        <div id="rssFeed">
+                <a href="http://hn-books.com/rss.xml"><img src="http://hn-books.com/images/icons/hnIconRSS1.png" alt="hnBooks Logo" width="42" height="42" /></a>
+        </div>
+            <div class="headerText">
+                <div class="span-24" id="headerItemPage">
+                    <div class="span-6 firstHeaderItem"><a href="http://www.hn-books.com">hacker books</a></div>
+                    <div class="span-6 askLink">ask question</div>
+                    <div class="span-6 answerLink"><a href="http://www.hn-books.com/AnswerQuestion.htm">answer question</a></div>
+                    <div class="span-5 last faqLink lastHeaderItem">faq</div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="span-24">
+            <div class="span-24">
+                
+                    <h1>
+                        <a href="http://amzn.to/bcUbOP">The Art of UNIX Programming</a></h1>
+                    <h2>
+                        <a href="http://amzn.to/bcUbOP"></a></h2>
+                <hr />
+            </div>
+            <div class="span-7 colborder">                
+                    <h2>
+                        <a href="http://amzn.to/bcUbOP">the item</a></h2>
+                        <div>
+                            <a href="http://amzn.to/bcUbOP"><img src="http://s3.amazonaws.com/hnb/book_141_small.png" alt="The Art of UNIX Programming" style="padding-left:1.75em;" />
+                            <br />
+                            The Art of UNIX Programming<br/>2003
+                            </a>
+                        </div>
+                    <h2>
+                    the questions</h2>
+                <ol id="questionsSelected" style="list-style-type:none;">
+                     <li class="ui-widget-content" id="Question12"><a href="http://hn-books.com/v1Main.htm#Q=1&Q12=1" style="text-decoration:none;"><div class="questionWidget">How to hack stuff</div></a></li>
+
+                </ol>
+                <h2>
+                    more about the
+                </h2>
+                     <div style="text-align:center" class=""><a href="http://amzn.to/bcUbOP"><button style="width:60%; margin-left:20%;">Book</button></a></div>
+<div style="text-align:center" class=""><a href="http://amzn.to/d6vD2N"><button style="width:60%; margin-left:20%;">E-Book</button></a></div>
+
+                <hr />
+                <br />
+                <h2>
+                    the consensus</h2>
+                    <div class="itemConsensus">
+                        
+                    </div>
+
+
+
+                <br />
+                <hr />
+
+                <h2>
+                    recent reviews
+                </h2>
+                <ol id="recentReviews" style="list-style-type:none;">
+                    <li id="recentContentItem2" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/Zen-And-The-Art-Of-Motorcycle-Maintenance.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Zen and the Art of Motorcylce Maintenance
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem3" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/The-Sparrow.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                The Sparrow
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem4" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/SEOMoz.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                SEOMoz
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li1" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/The-Mythical-Man-Month.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Mythical Man-Month
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li2" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/Code-Complete.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Code Complete
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li3" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/The-Pragmatic-Programmer.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Pragmatic Programmer: From Journeyman to Master
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem1" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/This-Perfect-Day.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                This Perfect Day
+                            </div>
+                        </a>
+                    </li>
+                </ol>
+                <br />
+                <hr />
+
+
+
+
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <!--[if IE]>
+                    <style type="text/css" media="screen">
+	                    #mc_embed_signup fieldset {position: relative;}
+	                    #mc_embed_signup legend {position: absolute; top: -1em; left: .2em;}
+                    </style>
+                    <![endif]--> 
+                    <!--[if IE 7]>
+                    <style type="text/css" media="screen">
+	                    .mc-field-group {overflow:visible;}
+                    </style>
+                    <![endif]-->
+                    <script type="text/javascript">
+                        function toggleMailSignup(sender) {
+                            if ($('#mailSignupOuter').is(":hidden")) {
+                                $('#mailSignupOuter').slideDown("slow");
+                            } else {
+                                $('#mailSignupOuter').slideUp("slow");
+                            }
+                        }
+                    </script>
+                    <div id="mc_embed_signup">
+                    <form action="http://bedfordtechgroup.us1.list-manage.com/subscribe/post?u=c967b6f001a02e1473d350342&amp;id=3df3462b26" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial, sans-serif;font-size: 10px;">
+	                    <fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #ccc;padding-top: 1.5em;margin: .5em 0;background-color: #FFFFFF;color: #000;text-align: left;">
+    	                    <legend style="white-space: normal;text-transform: capitalize;font-weight: bold;color: #000;background: #fff;padding: .5em 1em;border: 1px solid #ccc;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;"><span style="cursor:pointer;" onclick="toggleMailSignup('this');">join our mailing list</span></legend>
+                            <div id="mailSignupOuter" style="display:none;">
+                                <div class="indicate-required" style="text-align: right;font-style: italic;overflow: hidden;color: #000;margin: 0 9% 0 0;">* indicates required</div>
+                                <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-EMAIL" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Address <strong class="note-required">*</strong>
+                                </label>
+                                <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                                </div>
+                                <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-FNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">First Name </label>
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                            </div>
+                            <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-LNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Last Name </label>
+                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                            </div>
+                            <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label class="input-group-label" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Format </label>
+                                <div class="input-group" style="padding: .7em .7em .7em 0;font-size: .9em;margin: 0 0 1em 0;">
+                                <ul style="margin: 0;padding: 0;"><li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-0" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">html</label></li>
+                            <li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-1" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">text</label></li>
+                            <li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="mobile" name="EMAILTYPE" id="mce-EMAILTYPE-2" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-2" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">mobile</label></li>
+                            </ul>
+                                </div>
+                            </div>
+		                            <div id="mce-responses" style="float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;">
+			                            <div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: FBE3E4;color: #D12F19;"></div>
+			                            <div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #E3FBE4;color: #529214;"></div>
+		                            </div>
+		                            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;"></div>
+	                        </fieldset>	
+	                        <a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
+                    </form>
+                    </div>
+                    <script  type="text/javascript">
+                        try {
+                            var jqueryLoaded = jQuery;
+                            jqueryLoaded = true;
+                        } catch (err) {
+                            var jqueryLoaded = false;
+                        }
+                        if (!jqueryLoaded) {
+                            var head = document.getElementsByTagName('head')[0];
+                            var script = document.createElement('script');
+                            script.type = 'text/javascript';
+                            script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+                            head.appendChild(script);
+                        }
+                    </script>
+                    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
+
+                    <script type="text/javascript">
+                        var fnames = new Array(); var ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; var err_style = '';
+                        try {
+                            err_style = mc_custom_error_style;
+                        } catch (e) {
+                            err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: FFEEEE none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: FF0000;';
+                        }
+                        var head = document.getElementsByTagName('head')[0];
+                        var style = document.createElement('style');
+                        style.type = 'text/css';
+                        if (style.styleSheet) {
+                            style.styleSheet.cssText = '.mce_inline_error {' + err_style + '}';
+                        } else {
+                            style.appendChild(document.createTextNode('.mce_inline_error {' + err_style + '}'));
+                        }
+                        head.appendChild(style);
+                        $(document).ready(function ($) {
+                            var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function () { }, onfocusout: function () { }, onblur: function () { } };
+                            var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+                            options = { url: 'http://bedfordtechgroup.us1.list-manage2.com/subscribe/post-json?u=c967b6f001a02e1473d350342&id=3df3462b26&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                                beforeSubmit: function () {
+                                    $('#mce_tmp_error_msg').remove();
+                                    $('.datefield', '#mc_embed_signup').each(
+                                            function () {
+                                                var txt = 'filled';
+                                                var fields = new Array();
+                                                var i = 0;
+                                                $(':text', this).each(
+                                                    function () {
+                                                        fields[i] = this;
+                                                        i++;
+                                                    });
+                                                $(':hidden', this).each(
+                                                    function () {
+                                                        if (fields[0].value == 'MM' && fields[1].value == 'DD' && fields[2].value == 'YYYY') {
+                                                            this.value = '';
+                                                        } else if (fields[0].value == '' && fields[1].value == '' && fields[2].value == '') {
+                                                            this.value = '';
+                                                        } else {
+                                                            this.value = fields[0].value + '/' + fields[1].value + '/' + fields[2].value;
+                                                        }
+                                                    });
+                                            });
+                                    return mce_validator.form();
+                                },
+                                success: mce_success_cb
+                            };
+                            $('#mc-embedded-subscribe-form').ajaxForm(options);
+
+                        });
+                        function mce_success_cb(resp) {
+                            $('#mce-success-response').hide();
+                            $('#mce-error-response').hide();
+                            if (resp.result == "success") {
+                                $('#mce-' + resp.result + '-response').show();
+                                $('#mce-' + resp.result + '-response').html(resp.msg);
+                                $('#mc-embedded-subscribe-form').each(function () {
+                                    this.reset();
+                                });
+                            } else {
+                                var index = -1;
+                                var msg;
+                                try {
+                                    var parts = resp.msg.split(' - ', 2);
+                                    if (parts[1] == undefined) {
+                                        msg = resp.msg;
+                                    } else {
+                                        i = parseInt(parts[0]);
+                                        if (i.toString() == parts[0]) {
+                                            index = parts[0];
+                                            msg = parts[1];
+                                        } else {
+                                            index = -1;
+                                            msg = resp.msg;
+                                        }
+                                    }
+                                } catch (e) {
+                                    index = -1;
+                                    msg = resp.msg;
+                                }
+                                try {
+                                    if (index == -1) {
+                                        $('#mce-' + resp.result + '-response').show();
+                                        $('#mce-' + resp.result + '-response').html(msg);
+                                    } else {
+                                        err_id = 'mce_tmp_error_msg';
+                                        html = '<div id="' + err_id + '" style="' + err_style + '"> ' + msg + '</div>';
+
+                                        var input_id = '#mc_embed_signup';
+                                        var f = $(input_id);
+                                        if (ftypes[index] == 'address') {
+                                            input_id = '#mce-' + fnames[index] + '-addr1';
+                                            f = $(input_id).parent().parent().get(0);
+                                        } else if (ftypes[index] == 'date') {
+                                            input_id = '#mce-' + fnames[index] + '-month';
+                                            f = $(input_id).parent().parent().get(0);
+                                        } else {
+                                            input_id = '#mce-' + fnames[index];
+                                            f = $().parent(input_id).get(0);
+                                        }
+                                        if (f) {
+                                            $(f).append(html);
+                                            $(input_id).focus();
+                                        } else {
+                                            $('#mce-' + resp.result + '-response').show();
+                                            $('#mce-' + resp.result + '-response').html(msg);
+                                        }
+                                    }
+                                } catch (e) {
+                                    $('#mce-' + resp.result + '-response').show();
+                                    $('#mce-' + resp.result + '-response').html(msg);
+                                }
+                            }
+                        }
+                    </script>
+                    <!--End mc_embed_signup-->
+
+
+
+
+
+
+
+<!--                <br />
+                <hr />
+                              <div>
+                    <a href="http://bit.ly/dVIvwu">
+                    <h3>books work best on a kindle</h3>
+                    <img src="http://s3.amazonaws.com/hnb/new-kindle-dx-small.png" alt="Amazon Kindle e-book reader">
+                    <ul style="list-style:none;">
+                        <li>Instant downloads</li>
+                        <li>Easily annotate, share, and highlinght text</li>
+                        <li>All your hacker and startup books in one place</li>
+                    </ul>
+                    </a>
+                </div>
+-->
+
+
+                <br />
+                <hr />
+                <h3>
+                    if you liked<br /> 'The Art of UNIX Programming'<br />you also might like</h3>
+                    <div style="text-align:center" class="mayAlsoLike"><a href="http://amzn.to/b8LTDx"><button style="width:60%; margin-left:20%;"><div class="mayAlsoLikePic"><img src="http://s3.amazonaws.com/hnb/book_125_small.png" alt="Book cover for 'Computer Science Literature'" style="height: 3em; width: 2.5em;"/></div>Computer Science Literature</button></a></div>
+<div style="text-align:center" class="mayAlsoLike"><a href="http://amzn.to/cNcVLh"><button style="width:60%; margin-left:20%;"><div class="mayAlsoLikePic"><img src="http://s3.amazonaws.com/hnb/book_51_small.png" alt="Book cover for 'Hackers & Painters'" style="height: 3em; width: 2.5em;"/></div>Hackers & Painters</button></a></div>
+
+                <hr />
+                <br />
+                <div style="padding-left: 3em;"><a href="mailto:DanielBMarkham@gmail.com?subject=I'm interested in advertising?body=Tell me more about pay-per-day advertising">
+                    <img src="http://s3.amazonaws.com/hnb/YourAdHere.png" alt="Your Ad Here" /></a></div>
+                    <br />
+                    <br />
+                    <hr />
+                <h2>
+                    comment on<br /> 'The Art of UNIX Programming'</h2>
+                    <div style="text-align:center" class="open-ideas-box"><button style="width:60%; margin-left:20%;">Comments</button></div>
+                    <br />
+                    <br />
+                    <br />
+                <h3 style="font-size:smaller;">
+                    book ideas? feature requests?<br /> other information not related to 'The Art of UNIX Programming'?</h3>
+                <div style="text-align:center" class="open-ideas-box"><button style="width:60%; margin-left:20%;">Ideas</button></div>
+
+                <br />
+                <br />
+                <br />
+                <h4>continue the research</h4>
+                <form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+                    <div>
+                        <input type="hidden" name="cx" value="partner-pub-5378398786267370:gnvlcv-ar00" />
+                        <input type="hidden" name="ie" value="ISO-8859-1" />
+                        <input type="text" name="q" size="28" style="height:1.5em" />
+                        <br />
+                        <br />
+                        <div style="text-align:center"><button type="submit" name="sa" value="Search" style="width:60%; margin-left:20%;">Search</button></div>
+                    </div>
+                </form>
+                <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+                <br />
+                <br />
+                <hr />
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/Hn-books/176636875710129" width="292" show_faces="true" stream="true" header="true"></fb:like-box>
+                <br />
+                <br />
+                <script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script>
+                <br />
+                <br />
+                <script type="text/javascript">
+                    (function () {
+                        var hn_link = "http://news.ycombinator.com/submitlink?u=";
+                        if (window.hn_url) {
+                            hn_link += encodeURIComponent(hn_url);
+                        }
+                        else {
+                            hn_link += encodeURIComponent(document.location);
+                        }
+                        if (window.hn_title) {
+                            hn_link += "&t=" + encodeURIComponent(hn_title);
+                        }
+                        else {
+                            hn_link += "&t=" + encodeURIComponent(document.title);
+                        }
+
+                        var write_string = "<a href=" + hn_link + "><img src='http://ycombinator.com/images/y18.gif' alt='Hacker News' width=18 height=18 style='border:1px #ffffff solid;'/></a><a href=" + hn_link + " alink='#000000'; vlink='#828282' style='text-decoration:none' target='_blank'><span style='font-family:Verdana; font-size: 10pt; color:#828282;'><b>Submit</b></span></a>";
+                        document.write(write_string);
+                    })()                
+                </script>
+                <br />
+                <br />
+                <script type="text/javascript">
+
+                    (function () {
+                        var write_string = "<iframe src=\"http://reddit.com/static/button/button1.html?width=120&url=";
+                        if (window.reddit_url) { write_string += encodeURIComponent(reddit_url); }
+                        else { write_string += encodeURIComponent('http://saicharan.in/blog/2009/07/hn-submit-button/'); }
+                        if (window.reddit_title) {
+                            write_string += '&title=' + encodeURIComponent(window.reddit_title);
+                        }
+                        if (window.reddit_css) {
+                            write_string += '&css=' + encodeURIComponent(window.reddit_css);
+                        }
+                        if (window.reddit_bgcolor) {
+                            write_string += '&bgcolor=' + encodeURIComponent(window.reddit_bgcolor);
+                        }
+                        if (window.reddit_bordercolor) {
+                            write_string += '&bordercolor=' + encodeURIComponent(window.reddit_bordercolor);
+                        }
+                        if (window.reddit_newwindow) {
+                            write_string += '&newwindow=' + encodeURIComponent(window.reddit_newwindow);
+                        }
+                        write_string += "\" height=\"22\" width=\"120\" scrolling='no' frameborder='0'></iframe>";
+                        document.write(write_string);
+                    })()                
+                </script>
+                <br />
+                <br />
+                <script type="text/javascript">                
+                    (function() {
+                    var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'http://widgets.digg.com/buttons.js';
+                    s1.parentNode.insertBefore(s, s1);
+                    })();
+                    </script>
+                    <!-- Medium Button -->
+                    <a class="DiggThisButton DiggMedium"></a>
+                <br />
+                <br />
+                <div style='text-align:center;'>
+                <script type="text/javascript">
+                    var dzone_url = '<data:post.url/>';
+                </script>
+                <script type="text/javascript">
+                    var dzone_title = '<data:post.title/>';
+                </script>
+                <script type="text/javascript">
+                    var dzone_style = '1';
+                </script>
+                <script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"> </script>
+                </div>                
+                <br />
+                <br />
+                <hr />
+                <script type="text/javascript"><!--
+                    google_ad_client = "pub-5378398786267370";
+                    /* HN-Books 200x200, created 10/11/10 */
+                    google_ad_slot = "8036842933";
+                    google_ad_width = 200;
+                    google_ad_height = 200;
+        //-->
+                </script>
+                <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            
+            </div>
+            <div class="span-15 last" style="text-align: left;">
+            <div style="font-style:italic; text-align:center;">all external links are affiliate links. bit.ly is used to provide real-time tracking</div>
+                        <a name="the_review"></a>
+                    
+                    <br />
+                    <div id="fb-root"></div>
+                        <p><fb:login-button autologoutlink="true"></fb:login-button>&nbsp;&nbsp;&nbsp;<fb:like></fb:like></p>
+                    <script src="http://connect.facebook.net/en_US/all.js#appid=199301083424171&amp;xbfml=1"></script>
+                    <fb:comments href="http://hn-books.com/Books/The-Art-Of-UNIX-Programming.htm" num_posts="12" width="550"></fb:comments>
+                    <a name="the_buzz"></a>
+                    <h2>the buzz</h2> 
+                <div id="tabs">
+                    <div style="position: absolute;">
+                        <div id="googleBranding">
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#tabs-HackerNews">HackerNews</a></li>
+                        <li><a href="#tabs-Reddit">Reddit</a></li>
+                        <li><a href="#tabs-DZone">DZone</a></li>
+                        <li><a href="#tabs-Slashdot">Slashdot</a></li>
+                        <li><a href="#tabs-Amazon">Amazon</a></li>
+                        <li><a href="#tabs-Videos">Videos</a></li>
+                        <li><a href="#tabs-Blogs">Blogs</a></li>
+                    </ul>
+                    <div id="tabs-HackerNews">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-Reddit">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-DZone">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-Slashdot">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-Amazon">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-Videos">
+                        Nothing to see here, please move along</div>
+                    <div id="tabs-Blogs">
+                        Nothing to see here, please move along</div>
+                </div>
+                <br />
+                <hr />
+                    <div class="productDescription">
+                        <p>Unix ranks among the great engineering accomplishments of the last half of the twentieth century, and its heir--Linux--seems already imposing and still on its way to achieving its full potential. Eric S. Raymond argues in The Art of UNIX Programming that the excellence of Unix derives as much from the fact that it was (and continues to be) a community effort as from the fact that a lot of smart people have worked to design and build it. Raymond, best known as the author of the open-source manifesto The Cathedral and the Bazaar, says in his preface that this is a "why-to" book, rather than a "how-to" book. It aims to show new Unix programmers why they should work under the old "hacker ethic"--embracing the principles of good software design for its own sake and of code-sharing.</p>
+<p>That said, a great deal of valuable practical information appears in this book. Very little of it is in the form of code; most of the practical material takes the form of case studies and discussions of aspects of Unix, all aimed at determining why particular design characteristics are good. In many cases, the people who did the work in the first place make guest appearances and explain their thinking--an invaluable resource. This book is for the deep-thinking software developer in Unix (and perhaps Linux in particular). It shows how to fit into the long and noble tradition, and how to make the software work right</p>
+                    </div>
+                     <a href="http://amzn.to/bcUbOP"><button>Book</button></a>&nbsp;&nbsp;
+<a href="http://amzn.to/d6vD2N"><button>E-Book</button></a>&nbsp;&nbsp;
+
+                    <br /><hr />
+                    <a name="the_video"></a>
+                    
+                    <a name="the_take"></a>
+                    <br />
+                    <div id="lf_comment_stream"></div>
+                    <script type="text/javascript">
+                    $jl('#lf_comment_stream').bind('loaded.livefyre', function(e) {
+                       LF({
+                           blogname:'810', // hn-books.com
+                           domain:'rooms.livefyre.com',
+                           article:'The-Art-Of-UNIX-Programming', // e.g. '12315'
+                       });
+                    });
+                    </script>
+            </div>
+            <div style="display: none">
+                <div id="faqExplain">
+                    <h3>
+                        What is this?</h3>
+                    <p>
+                        A while back <a href="http://www.whattofix.com/blog/archives/2010/10/top-dozen-hacke.php">
+                            I wrote an article on my blog</a> listing all the books that hackers recommended
+                        to each other from the site <a href="http://news.ycombinator.com/news">HackerNews</a>.
+                        The purpose was to provide a place to list book recommendations so that people didn't
+                        have to type in the same list over and over again. (HN gets several requests for
+                        book recommendations a week. I also get at least a couple each month). <a href="http://news.ycombinator.com/item?id=1755422">
+                            It was very well received</a>, and <a href="http://news.ycombinator.com/item?id=1758059">
+                            </a>many posters and commenters either asked that I make a site or sent me an
+                        email asking me to do so.</p>
+                    <h3>
+                        How is this any different from the list on the blog?</h3>
+                    <p>
+                        This list has more books. This list is sortable both by what question you have and
+                        your skill level. In addition, once you sort the list, <strong>you can save the link
+                            with your sort and send it to somebody else.</strong> So, for instance, when
+                        somebody wants a book for noobs learning to program, you can make a link for that
+                        and then reuse it</p>
+                    <h3>
+                        How did you collect these books?</h3>
+                    <p>
+                        Initially the list came from Googling HackerNews.com "best book" and taking the
+                        books from the first few pages returned. Later, I added all the books that were
+                        mentioned "You left that out!" when Jacques posted the link. While adding <em>those
+                        </em>books, I came across a Stack Overflow link where programmers were asked to
+                        list their favorite tech books, so I included those too.</p>
+                    <h3>
+                        If I ask you to put a book on here, will you?</h3>
+                    <p>
+                        It depends.</p>
+                    <p>
+                        These books were all gathered by finding places where hackers hang out and are suggesting
+                        books to other hackers and other hackers agree with them by voting up their suggestion.
+                        If I can find an example of this for your book, I'm happy to include it.</p>
+                    <h3>
+                        How are the books ranked?</h3>
+                    <p>
+                        I did the best I could with ranking. I am sure there are many things you do not
+                        agree with. It would be possible to add voting and personal ranking -- that would
+                        make the system much better. Heck, you could rank the books yourself and use it
+                        as a customized book list to show to people who want your advice. I'd like to do
+                        that, but if I've learned anything is to not let your featureset get ahead of the
+                        users. This first version will test the waters to see what kind of interest the
+                        community might have.</p>
+                </div>
+            </div>
+        </div>
+            <div id="footer" class="span-24 clear last">
+                <br />
+                <hr />
+                <br />
+                <p style="text-align: center">
+                    questions about this site, contact the webmaster at <a href="mailto:Daniel@hn-books.com">
+                        Daniel@hn-books.com</a></p>
+                <h4>if you enjoyed the information you've browsed about <strong>'The Art of UNIX Programming'</strong>, <a href="http://hn-books.com">take a look at our main page</a></h4>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('#tabs').tabs();
+        $("button").button();
+    </script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1932542-18']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+                <div id="wufoo-form-ideas">
+                    <!-- embed code here -->
+                    <script type="text/javascript">                        var host = (("https:" == document.location.protocol) ? "https://secure." : "http://"); document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+                    <script type="text/javascript">
+                        var k7x2w5 = new WufooForm();
+                        k7x2w5.initialize({
+                            'userName': 'bedfordtechgroup',
+                            'formHash': 'k7x2w5',
+                            'autoResize': true,
+                            'height': '716'
+                        });
+                        k7x2w5.display();
+                    </script>
+                </div>
+                <div id="wufoo-form-askaquestion">
+                    <!-- embed code here -->
+                    <script type="text/javascript">                        var host = (("https:" == document.location.protocol) ? "https://secure." : "http://"); document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+                    <script type="text/javascript">
+                        var z7x2r7 = new WufooForm();
+                        z7x2r7.initialize({
+                            'userName': 'bedfordtechgroup',
+                            'formHash': 'z7x2r7',
+                            'autoResize': true,
+                            'height': '383'
+                        });
+                        z7x2r7.display();
+                    </script>
+                </div>
+<script type="text/javascript">
+    var t = $("#cse-search-box input");
+    t.css('height', '2em');
+    //t.css('background-color', 'Red');
+</script>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({ appId: '199301083424171', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+        (function () {
+            var e = document.createElement('script');
+            e.type = 'text/javascript';
+            e.src = document.location.protocol +
+          '//connect.facebook.net/en_US/all.js';
+            e.async = true;
+            document.getElementById('fb-root').appendChild(e);
+        } ());
+    </script>
+</body>
+</html>

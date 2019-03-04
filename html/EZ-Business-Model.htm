@@ -1,0 +1,1129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>EZ Business Model</title>
+    <link rel="SHORTCUT ICON" href="http://www.hn-books.com/favicon.ico"/>
+    <link rel="canonical" href="http://hn-books.com/EZ-Business-Model.htm" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://hn-books.com/rss.xml" /> 
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Keep track of how long your remaining startup runway is by creating a shareable startup business model" />
+    <meta property="fb:admins" content="648707353"/>
+    <meta property="fb:app_id" content="199301083424171">
+    <link rel="stylesheet" href="http://www.hn-books.com/css/AllMin1.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.hn-books.com/css/print.css" type="text/css" media="print" />
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<link rel="stylesheet" href="http://www.hn-books.com/css/v1Main.css" type="text/css" media="screen, projection" />
+    <!--
+    <link rel="stylesheet" id="livefyre-css" href="http://livefyre.com/css/compressed_embed.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://livefyre.com/javascripts/livefyre.js"></script>
+	!-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"
+		type="text/javascript"></script>
+	<script src="http://s3.amazonaws.com/hnb/jquery.flot.min.js"
+		type="text/javascript"></script>
+	<script src="http://s3.amazonaws.com/hnb/date.js"
+		type="text/javascript"></script>
+    <script type="text/javascript">
+        (function (b, gb) { var v = "none", t = "click", N = "LoadedContent", d = false, x = "resize.", o = "y", u = "auto", f = true, M = "nofollow", q = "on", n = "x"; function e(a, c) { a = a ? ' id="' + k + a + '"' : ""; c = c ? ' style="' + c + '"' : ""; return b("<div" + a + c + "/>") } function p(a, b) { b = b === n ? m.width() : m.height(); return typeof a === "string" ? Math.round(a.match(/%/) ? b / 100 * parseInt(a, 10) : parseInt(a, 10)) : a } function Q(c) { c = b.isFunction(c) ? c.call(h) : c; return a.photo || c.match(/\.(gif|png|jpg|jpeg|bmp)(?:\?([^#]*))?(?:#(\.*))?$/i) } function cb() { for (var c in a) if (b.isFunction(a[c]) && c.substring(0, 2) !== q) a[c] = a[c].call(h); a.rel = a.rel || h.rel || M; a.href = a.href || b(h).attr("href"); a.title = a.title || h.title } function db(d) { h = d; a = b.extend({}, b(h).data(r)); cb(); if (a.rel !== M) { i = b("." + H).filter(function () { return (b(this).data(r).rel || this.rel) === a.rel }); g = i.index(h); if (g === -1) { i = i.add(h); g = i.length - 1 } } else { i = b(h); g = 0 } if (!w) { w = F = f; R = h; try { R.blur() } catch (e) { } b.event.trigger(hb); a.onOpen && a.onOpen.call(h); y.css({ opacity: +a.opacity, cursor: a.overlayClose ? "pointer" : u }).show(); a.w = p(a.initialWidth, n); a.h = p(a.initialHeight, o); c.position(0); S && m.bind(x + O + " scroll." + O, function () { y.css({ width: m.width(), height: m.height(), top: m.scrollTop(), left: m.scrollLeft() }) }).trigger("scroll." + O) } T.add(I).add(J).add(z).add(U).hide(); V.html(a.close).show(); c.slideshow(); c.load() } var eb = { transition: "elastic", speed: 300, width: d, initialWidth: "600", innerWidth: d, maxWidth: d, height: d, initialHeight: "450", innerHeight: d, maxHeight: d, scalePhotos: f, scrolling: f, inline: d, html: d, iframe: d, photo: d, href: d, title: d, rel: d, opacity: .9, preloading: f, current: "image {current} of {total}", previous: "previous", next: "next", close: "close", open: d, loop: f, slideshow: d, slideshowAuto: f, slideshowSpeed: 2500, slideshowStart: "start slideshow", slideshowStop: "stop slideshow", onOpen: d, onLoad: d, onComplete: d, onCleanup: d, onClosed: d, overlayClose: f, escKey: f, arrowKey: f }, r = "colorbox", k = "cbox", hb = k + "_open", P = k + "_load", W = k + "_complete", X = k + "_cleanup", fb = k + "_closed", G = b.browser.msie && !b.support.opacity, S = G && b.browser.version < 7, O = k + "_IE6", y, j, E, s, Y, Z, ab, bb, i, m, l, K, L, U, T, z, J, I, V, C, D, A, B, h, R, g, a, w, F, c, H = k + "Element"; c = b.fn[r] = b[r] = function (c, d) { var a = this; if (!a[0] && a.selector) return a; c = c || {}; if (d) c.onComplete = d; if (!a[0] || a.selector === undefined) { a = b("<a/>"); c.open = f } a.each(function () { b(this).data(r, b.extend({}, b(this).data(r) || eb, c)).addClass(H) }); c.open && db(a[0]); return a }; c.init = function () { var h = "hover"; m = b(gb); j = e().attr({ id: r, "class": G ? k + "IE" : "" }); y = e("Overlay", S ? "position:absolute" : "").hide(); E = e("Wrapper"); s = e("Content").append(l = e(N, "width:0; height:0"), L = e("LoadingOverlay").add(e("LoadingGraphic")), U = e("Title"), T = e("Current"), J = e("Next"), I = e("Previous"), z = e("Slideshow"), V = e("Close")); E.append(e().append(e("TopLeft"), Y = e("TopCenter"), e("TopRight")), e().append(Z = e("MiddleLeft"), s, ab = e("MiddleRight")), e().append(e("BottomLeft"), bb = e("BottomCenter"), e("BottomRight"))).children().children().css({ "float": "left" }); K = e(d, "position:absolute; width:9999px; visibility:hidden; display:none"); b("body").prepend(y, j.append(E, K)); s.children().hover(function () { b(this).addClass(h) }, function () { b(this).removeClass(h) }).addClass(h); C = Y.height() + bb.height() + s.outerHeight(f) - s.height(); D = Z.width() + ab.width() + s.outerWidth(f) - s.width(); A = l.outerHeight(f); B = l.outerWidth(f); j.css({ "padding-bottom": C, "padding-right": D }).hide(); J.click(c.next); I.click(c.prev); V.click(c.close); s.children().removeClass(h); b("." + H).live(t, function (a) { if (a.button !== 0 && typeof a.button !== "undefined" || a.ctrlKey || a.shiftKey || a.altKey) return f; else { db(this); return d } }); y.click(function () { a.overlayClose && c.close() }); b(document).bind("keydown", function (b) { if (w && a.escKey && b.keyCode === 27) { b.preventDefault(); c.close() } if (w && a.arrowKey && !F && i[1]) if (b.keyCode === 37 && (g || a.loop)) { b.preventDefault(); I.click() } else if (b.keyCode === 39 && (g < i.length - 1 || a.loop)) { b.preventDefault(); J.click() } }) }; c.remove = function () { j.add(y).remove(); b("." + H).die(t).removeData(r).removeClass(H) }; c.position = function (f, b) { function c(a) { Y[0].style.width = bb[0].style.width = s[0].style.width = a.style.width; L[0].style.height = L[1].style.height = s[0].style.height = Z[0].style.height = ab[0].style.height = a.style.height } var e, h = Math.max(m.height() - a.h - A - C, 0) / 2 + m.scrollTop(), g = Math.max(m.width() - a.w - B - D, 0) / 2 + m.scrollLeft(); e = j.width() === a.w + B && j.height() === a.h + A ? 0 : f; E[0].style.width = E[0].style.height = "9999px"; j.dequeue().animate({ width: a.w + B, height: a.h + A, top: h, left: g }, { duration: e, complete: function () { c(this); F = d; E[0].style.width = a.w + B + D + "px"; E[0].style.height = a.h + A + C + "px"; b && b() }, step: function () { c(this) } }) }; c.resize = function (b) { if (w) { b = b || {}; if (b.width) a.w = p(b.width, n) - B - D; if (b.innerWidth) a.w = p(b.innerWidth, n); l.css({ width: a.w }); if (b.height) a.h = p(b.height, o) - A - C; if (b.innerHeight) a.h = p(b.innerHeight, o); if (!b.innerHeight && !b.height) { b = l.wrapInner("<div style='overflow:auto'></div>").children(); a.h = b.height(); b.replaceWith(b.children()) } l.css({ height: a.h }); c.position(a.transition === v ? 0 : a.speed) } }; c.prep = function (o) { var d = "hidden"; function n(t) { var o, q, s, n, d = i.length, e = a.loop; c.position(t, function () { function t() { G && j[0].style.removeAttribute("filter") } if (w) { G && p && l.fadeIn(100); a.iframe && b("<iframe frameborder=0" + (a.scrolling ? "" : " scrolling='no'") + (G ? " allowtransparency='true'" : "") + "/>").attr({ src: a.href, name: (new Date).getTime() }).appendTo(l); l.show(); U.show().html(a.title); if (d > 1) { T.html(a.current.replace(/\{current\}/, g + 1).replace(/\{total\}/, d)).show(); J[e || g < d - 1 ? "show" : "hide"]().html(a.next); I[e || g ? "show" : "hide"]().html(a.previous); o = g ? i[g - 1] : i[d - 1]; s = g < d - 1 ? i[g + 1] : i[0]; if (a.slideshow) { z.show(); g === d - 1 && !e && j.is("." + k + "Slideshow_on") && z.click() } if (a.preloading) { n = b(s).data(r).href || s.href; q = b(o).data(r).href || o.href; if (Q(n)) b("<img/>")[0].src = n; if (Q(q)) b("<img/>")[0].src = q } } L.hide(); a.transition === "fade" ? j.fadeTo(f, 1, function () { t() }) : t(); m.bind(x + k, function () { c.position(0) }); b.event.trigger(W); a.onComplete && a.onComplete.call(h) } }) } if (w) { var p, f = a.transition === v ? 0 : a.speed; m.unbind(x + k); l.remove(); l = e(N).html(o); l.hide().appendTo(K.show()).css({ width: function () { a.w = a.w || l.width(); a.w = a.mw && a.mw < a.w ? a.mw : a.w; return a.w } (), overflow: a.scrolling ? u : d }).css({ height: function () { a.h = a.h || l.height(); a.h = a.mh && a.mh < a.h ? a.mh : a.h; return a.h } () }).prependTo(s); K.hide(); b("#" + k + "Photo").css({ cssFloat: v }); S && b("select").not(j.find("select")).filter(function () { return this.style.visibility !== d }).css({ visibility: d }).one(X, function () { this.style.visibility = "inherit" }); a.transition === "fade" ? j.fadeTo(f, 0, function () { n(0) }) : n(f) } }; c.load = function () { var j, d, q, m = c.prep; F = f; h = i[g]; a = b.extend({}, b(h).data(r)); cb(); b.event.trigger(P); a.onLoad && a.onLoad.call(h); a.h = a.height ? p(a.height, o) - A - C : a.innerHeight && p(a.innerHeight, o); a.w = a.width ? p(a.width, n) - B - D : a.innerWidth && p(a.innerWidth, n); a.mw = a.w; a.mh = a.h; if (a.maxWidth) { a.mw = p(a.maxWidth, n) - B - D; a.mw = a.w && a.w < a.mw ? a.w : a.mw } if (a.maxHeight) { a.mh = p(a.maxHeight, o) - A - C; a.mh = a.h && a.h < a.mh ? a.h : a.mh } j = a.href; L.show(); if (a.inline) { e("InlineTemp").hide().insertBefore(b(j)[0]).bind(P + " " + X, function () { b(this).replaceWith(l.children()) }); m(b(j)) } else if (a.iframe) m(" "); else if (a.html) m(a.html); else if (Q(j)) { d = new Image; d.onload = function () { var e; d.onload = null; d.id = k + "Photo"; b(d).css({ margin: u, border: v, display: "block", cssFloat: "left" }); if (a.scalePhotos) { q = function () { d.height -= d.height * e; d.width -= d.width * e }; if (a.mw && d.width > a.mw) { e = (d.width - a.mw) / d.width; q() } if (a.mh && d.height > a.mh) { e = (d.height - a.mh) / d.height; q() } } if (a.h) d.style.marginTop = Math.max(a.h - d.height, 0) / 2 + "px"; setTimeout(function () { m(d) }, 1); i[1] && (g < i.length - 1 || a.loop) && b(d).css({ cursor: "pointer" }).click(c.next); if (G) d.style.msInterpolationMode = "bicubic" }; d.src = j } else e().appendTo(K).load(j, function (c, a, b) { m(a === "error" ? "Request unsuccessful: " + b.statusText : this) }) }; c.next = function () { if (!F) { g = g < i.length - 1 ? g + 1 : 0; c.load() } }; c.prev = function () { if (!F) { g = g ? g - 1 : i.length - 1; c.load() } }; c.slideshow = function () { function f() { z.text(a.slideshowStop).bind(W, function () { d = setTimeout(c.next, a.slideshowSpeed) }).bind(P, function () { clearTimeout(d) }).one(t, function () { e() }); j.removeClass(b + "off").addClass(b + q) } var e, d, b = k + "Slideshow_"; z.bind(fb, function () { z.unbind(); clearTimeout(d); j.removeClass(b + "off " + b + q) }); e = function () { clearTimeout(d); z.text(a.slideshowStart).unbind(W + " " + P).one(t, function () { f(); d = setTimeout(c.next, a.slideshowSpeed) }); j.removeClass(b + q).addClass(b + "off") }; if (a.slideshow && i[1]) a.slideshowAuto ? f() : e() }; c.close = function () { if (w) { w = d; b.event.trigger(X); a.onCleanup && a.onCleanup.call(h); m.unbind("." + k + " ." + O); y.fadeTo("fast", 0); j.stop().fadeTo("fast", 0, function () { j.find("iframe").attr("src", "about:blank"); l.remove(); j.add(y).css({ opacity: 1, cursor: u }).hide(); try { R.focus() } catch (c) { } setTimeout(function () { b.event.trigger(fb); a.onClosed && a.onClosed.call(h) }, 1) }) } }; c.element = function () { return b(h) }; c.settings = eb; b(c.init) })(jQuery, this)
+    </script>
+    <script src="http://www.hn-books.com/scripts/AllMin1.js" type="text/javascript"></script>
+
+    <script src="http://www.hn-books.com/scripts/v1BookData.js"  type="text/javascript"></script>
+    <script src="http://www.hn-books.com/scripts/v1Main.js" type="text/javascript"></script>
+    <script src="http://www.google.com/jsapi?key=ABQIAAAAfm16J2zzmmtwSBocBfSEDxSBh6ZyOshw_XBC_ND1JWCXea4NMhSrjHxiQ4vCjBuITjRywgmSGB0TJw"
+        type="text/javascript"></script>
+    <script type="text/javascript">
+        var displayIntervalID = 0;
+        var defaultEventDate = new Date("12/21/2012");
+        var defaultEventName = "Mayan End Of World";
+        var modelVariables = new Object();
+        var interestingEvent = new Object();
+        var monthlyIncomePerUser = 0;
+        var monthlyBurnRatePerUser = 0;
+        var MONTHCOUNT = 120;
+        var monthlyStatus = new Array(MONTHCOUNT);
+
+
+        var defaultParms = new Object();
+            defaultParms.ModelName = "no model data entered";
+            defaultParms.StartDate = new Date();
+            defaultParms.CashOnHand = 5000;
+            defaultParms.InitialMonthlyIncome = 10;
+            defaultParms.InitialUserCount = 10000;
+            defaultParms.BurnRateFixed = 20;
+            defaultParms.BurnRateVariable = 35;
+            defaultParms.MonthlyOrganicProspects = 100;
+            defaultParms.ProspectToCustomerConversionRate = .02;
+            defaultParms.CostToBuyAProspect = 2.5;
+            defaultParms.AverageSalesEventsPerUserPerMonth = 1;
+            defaultParms.MonthlyCustomerAttritionRate = .05;
+            defaultParms.NetworkEffect = 0;
+            defaultParms.GrowthRateYoureWillingToPayFor = .01;
+            function makeIntoNum(num){
+                temp = 0;
+                if (num==null){
+                    temp = 0;
+                }
+                else
+                {
+                    try{
+                        temp = parseFloat(num);
+                    }
+                    catch(e)
+                    {
+                        temp = 0;
+                    }
+                }
+                return temp;
+            }
+            function makeIntoStr(item){
+                ret = "";
+                if (null == item){
+                    ret ="";
+                }
+                else
+                {
+                    ret=item;
+                }
+                return ret;
+            }
+            function makeIntoDate(item){
+                if (null != item) {
+                    try {
+                        return new Date(item);
+                    }
+                    catch (e) {
+                        return new Date();
+                    }
+                }
+                else {
+                    return new Date();
+                }
+            }
+            function stuffModelVariablesIntoBoxes() {
+                modelNameInput.value =                  makeIntoStr(modelVariables.ModelName);
+                $("#modelTitle").html(makeIntoStr(modelVariables.ModelName));
+                temp = makeIntoDate(modelVariables.StartDate);
+                $("#startDateInput").datepicker();
+                $("#startDateInput").datepicker("setDate", temp);
+                cashOnHandInput.value =                 makeIntoNum(modelVariables.CashOnHand);
+                initialMonthlyIncomeInput.value =       makeIntoNum(modelVariables.InitialMonthlyIncome);
+                initialUserCountInput.value =           makeIntoNum(modelVariables.InitialUserCount);
+                burnRateFixedInput.value =              makeIntoNum(modelVariables.BurnRateFixed);
+                burnRateVariableInput.value =           makeIntoNum(modelVariables.BurnRateVariable);
+                monthlyOrganicProspects.value =         makeIntoNum(modelVariables.MonthlyOrganicProspects);
+                prospectCustomerConversionRate.value =  makeIntoNum(modelVariables.ProspectToCustomerConversionRate);
+                costToBuyAProspect.value =              makeIntoNum(modelVariables.CostToBuyAProspect);
+                averageSalesEventsPerUserPerMonth.value = makeIntoNum(modelVariables.AverageSalesEventsPerUserPerMonth);
+                monthlyCustomerAttritionRate.value =    makeIntoNum(modelVariables.MonthlyCustomerAttritionRate);
+                networkEffectInput.value =              makeIntoNum(modelVariables.NetworkEffect);
+                growthRateYoureWillingToPayFor.value =  makeIntoNum(modelVariables.GrowthRateYoureWillingToPayFor);
+            }
+            function stuffBoxesIntoModelVariables() {
+                modelVariables.ModelName = modelNameInput.value;
+                modelVariables.StartDate = startDateInput.value;
+                modelVariables.CashOnHand = cashOnHandInput.value;
+                modelVariables.InitialMonthlyIncome = initialMonthlyIncomeInput.value;
+                modelVariables.InitialUserCount = initialUserCountInput.value;
+                modelVariables.BurnRateFixed = burnRateFixedInput.value;
+                modelVariables.BurnRateVariable = burnRateVariableInput.value;
+                modelVariables.MonthlyOrganicProspects = monthlyOrganicProspects.value;
+                modelVariables.ProspectToCustomerConversionRate = prospectCustomerConversionRate.value;
+                modelVariables.CostToBuyAProspect = costToBuyAProspect.value;
+                modelVariables.AverageSalesEventsPerUserPerMonth = averageSalesEventsPerUserPerMonth.value;
+                modelVariables.MonthlyCustomerAttritionRate = monthlyCustomerAttritionRate.value;
+                modelVariables.NetworkEffect = networkEffectInput.value;
+                modelVariables.GrowthRateYoureWillingToPayFor = growthRateYoureWillingToPayFor.value;
+                // derived variables
+                monthlyBurnRatePerUser = modelVariables.BurnRateVariable / modelVariables.InitialUserCount;
+                monthlyIncomePerUser = modelVariables.InitialMonthlyIncome / modelVariables.InitialUserCount;    
+            }
+            function createStatusItem(month, lastMonthsUserCount, lastMonthsCashBalance) {
+                newNetworkedProspects = lastMonthsUserCount * modelVariables.NetworkEffect * 1;
+                newOrganicProspects = modelVariables.MonthlyOrganicProspects * 1;
+                desiredEndUserCount = parseInt(lastMonthsUserCount * (1 + modelVariables.GrowthRateYoureWillingToPayFor * 1));
+                lastMonthsUserCountMinusAttrition = lastMonthsUserCount * (1 - modelVariables.MonthlyCustomerAttritionRate * 1);
+                if (modelVariables.GrowthRateYoureWillingToPayFor * 1 == 0) desiredEndUserCount = lastMonthsUserCountMinusAttrition; // if you don't want to pay for any new users, whatever you have is fine
+                neededNewUsers = desiredEndUserCount - lastMonthsUserCountMinusAttrition
+                neededNewProspects = neededNewUsers /modelVariables.ProspectToCustomerConversionRate;
+                newPaidForProspects = neededNewProspects - newOrganicProspects;
+                //if (neededNewProspects == 0) newPaidForProspects = 0;
+                if (newPaidForProspects <= 0) newPaidForProspects = 0;
+                costForNewProspects = 0 + newPaidForProspects * modelVariables.CostToBuyAProspect / modelVariables.ProspectToCustomerConversionRate;
+                newProspects = (newNetworkedProspects + newOrganicProspects + newPaidForProspects) * 1;
+                newUsersFromProspects = (newProspects * modelVariables.ProspectToCustomerConversionRate * 1);
+                newUserCount = parseInt(lastMonthsUserCount * 1 + newUsersFromProspects);
+                costOfSupportingUsers = parseInt(100 *newUserCount * monthlyBurnRatePerUser)/100;
+                monthlyExpenses = parseInt(((modelVariables.BurnRateFixed*1) + costOfSupportingUsers) * 100) / 100;
+                monthlyIncome = parseInt(newUserCount * monthlyIncomePerUser *100)/100;
+                newCashOnHand = (parseInt(lastMonthsCashBalance*1 + monthlyIncome*1 - monthlyExpenses*1) * 100)/100;
+                ret = new Object();
+                ret.MonthBegin = month;
+                ret.BeginningBalance = lastMonthsCashBalance;
+                ret.BeginningUserCount = lastMonthsUserCount;
+                ret.CostOfNewUsers = costForNewProspects;
+                ret.VariableExpenses = costOfSupportingUsers;
+                ret.FixedExpenses = modelVariables.BurnRateFixed;
+                ret.TotalExpenses = monthlyExpenses;
+                ret.TotalIncome = monthlyIncome;
+                ret.EndingUserCount = newUserCount;
+                ret.EndingBalance = newCashOnHand;
+                return ret;
+            }
+            function findInterestingEvent() {
+                ret = new Object();
+                for (i = 1; i < MONTHCOUNT; i++) {
+                if ( (monthlyStatus[i].EndingBalance <0) && (monthlyStatus[i-1].EndingBalance>0)){
+                    ret.EventName = "DEATH";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                    }
+                if ((monthlyStatus[i].TotalIncome > 1000) && (monthlyStatus[i-1].TotalIncome < 1000)) {
+                    ret.EventName = "$1K Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 1000) && (monthlyStatus[i-1].EndingUserCount < 1000)) {
+                    ret.EventName = "1K Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 5000) && (monthlyStatus[i - 1].TotalIncome < 5000)) {
+                    ret.EventName = "$5K Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 5000) && (monthlyStatus[i - 1].EndingUserCount < 5000)) {
+                    ret.EventName = "5K Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 10000) && (monthlyStatus[i - 1].TotalIncome < 10000)) {
+                    ret.EventName = "$10K Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 10000) && (monthlyStatus[i - 1].EndingUserCount < 10000)) {
+                    ret.EventName = "10K Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 50000) && (monthlyStatus[i - 1].TotalIncome < 50000)) {
+                    ret.EventName = "$50K Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 50000) && (monthlyStatus[i - 1].EndingUserCount < 50000)) {
+                    ret.EventName = "50K Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 100000) && (monthlyStatus[i - 1].TotalIncome < 100000)) {
+                    ret.EventName = "$100K Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 100000) && (monthlyStatus[i - 1].EndingUserCount < 100000)) {
+                    ret.EventName = "100K Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 1000000) && (monthlyStatus[i - 1].TotalIncome < 1000000)) {
+                    ret.EventName = "$1M Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 1000000) && (monthlyStatus[i - 1].EndingUserCount < 1000000)) {
+                    ret.EventName = "1M Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 10000000) && (monthlyStatus[i - 1].TotalIncome < 10000000)) {
+                    ret.EventName = "$10M Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 10000000) && (monthlyStatus[i - 1].EndingUserCount < 10000000)) {
+                    ret.EventName = "10M Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 100000000) && (monthlyStatus[i - 1].TotalIncome < 100000000)) {
+                    ret.EventName = "$100M Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 100000000) && (monthlyStatus[i - 1].EndingUserCount < 100000000)) {
+                    ret.EventName = "100M Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 500000000) && (monthlyStatus[i - 1].TotalIncome < 500000000)) {
+                    ret.EventName = "$500M Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 500000000) && (monthlyStatus[i - 1].EndingUserCount < 500000000)) {
+                    ret.EventName = "500M Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].TotalIncome > 1000000000) && (monthlyStatus[i - 1].TotalIncome < 1000000000)) {
+                    ret.EventName = "$1B Total Income Per Month";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+                if ((monthlyStatus[i].EndingUserCount > 1000000000) && (monthlyStatus[i - 1].EndingUserCount < 1000000000)) {
+                    ret.EventName = "1B Monthly Users";
+                    ret.EventDate = new Date(modelVariables.StartDate).add(i).months();
+                    break;
+                }
+            }
+            if (null == ret.EventName) {
+                ret.EventName = "-" + defaultEventName + "-";
+                ret.EventDate = defaultEventDate;
+            }
+            return ret;
+            }
+            function getMax(){
+                var temp = 0;
+                for (i = 0; i < MONTHCOUNT; i++) {
+                    if (Math.abs(monthlyStatus[i].EndingBalance) > temp) temp = Math.abs(monthlyStatus[i].EndingBalance);
+                }
+                return temp;
+            }
+            function getInc(){
+                var temp = new Array(MONTHCOUNT);
+                for (i = 0; i < MONTHCOUNT; i++) {
+                    temp.push([i,monthlyStatus[i].TotalIncome]);
+                }
+                return temp;
+            }
+            function getExp(){
+                var temp = new Array(MONTHCOUNT);
+                for (i = 0; i < MONTHCOUNT; i++) {
+                    temp.push([i,monthlyStatus[i].TotalExpenses]);
+                }
+                return temp;
+            }
+            function getBal(){
+                var temp = new Array(MONTHCOUNT);
+                for (i = 0; i < MONTHCOUNT; i++) {
+                    temp.push([i,monthlyStatus[i].EndingBalance]);
+                }
+                return temp;
+            }
+            function fillArray() {
+                $("#modelTable").html("");
+                $("#modelTable").append("<thead><tr><td>Month</td><td>Beginning Balance</td><td>Beginning Users</td><td>Income</td><td>Expenses</td><td>Ending Users</td><td>Ending Balance</td></tr><thead>");
+                loopMonth = new Date(modelVariables.StartDate);
+                monthlyStatus[0] = createStatusItem(loopMonth, modelVariables.InitialUserCount, modelVariables.CashOnHand);
+                $("#modelTable").append("<thead><tr><td>" + loopMonth.toString("MMM") + "-" + loopMonth.toString("yyyy") + "</td><td>" + monthlyStatus[0].BeginningBalance + "</td><td>" + monthlyStatus[0].BeginningUserCount + "</td><td>" + monthlyStatus[0].TotalIncome + "</td><td>" + monthlyStatus[0].TotalExpenses + "</td><td>" + monthlyStatus[0].EndingUserCount + "</td><td>" + monthlyStatus[0].EndingBalance + "</td></tr><thead>");
+                for (i = 1; i < MONTHCOUNT; i++) {
+                    loopMonth = loopMonth.add(1).month();
+                    monthlyStatus[i] = createStatusItem(loopMonth, monthlyStatus[i - 1].EndingUserCount, monthlyStatus[i - 1].EndingBalance);
+                    $("#modelTable").append("<tr><td>" + loopMonth.toString("MMM") + "-" + loopMonth.toString("yyyy") + "</td><td>" + monthlyStatus[i].BeginningBalance + "</td><td>" + monthlyStatus[i].BeginningUserCount + "</td><td>" + monthlyStatus[i].TotalIncome + "</td><td>" + monthlyStatus[i].TotalExpenses + "</td><td>" + monthlyStatus[i].EndingUserCount + "</td><td>" + monthlyStatus[i].EndingBalance + "</td></tr>");
+                }
+                ievt = findInterestingEvent();
+                interestingEvent = ievt;
+                iMax = getMax();
+                inco = getInc();
+                expe = getExp();
+                bala = getBal();
+                try{
+                    $.plot($("#graphPlaceholder"), [inco, expe, bala], { yaxis: { max: iMax, min: -1*iMax } });
+                }
+                catch(e){
+                }
+            }
+            function boxesHaveChanged(sender) {
+                stuffBoxesIntoModelVariables();
+                $.bbq.pushState(modelVariables);
+                fillArray();
+            }
+            function updateDisplay(sender) {
+                eventName = defaultEventName;
+                if (interestingEvent.EventName != null) eventName = interestingEvent.EventName;
+                eventDate = defaultEventDate;
+                if (interestingEvent.EventDate != null) eventDate = interestingEvent.EventDate;
+
+            var now = new Date();
+            var current = parseInt(now.getTime()/1000);
+            var diff_secs = eventDate.getTime()/1000 - current;
+
+            diff_days = parseInt(diff_secs / (60 * 60 * 24));
+            d2 = diff_secs - (diff_days * 60 * 60 * 24);
+            diff_hours = parseInt(d2 / (60 * 60));
+            d3 = d2 - (diff_hours * 60 * 60);
+            diff_minutes = parseInt(d3 / (60));
+            d4 = d3 - (diff_minutes * 60);
+            
+            $("#display").html(eventName + "<br/><br/>" + diff_days + " Days " + diff_hours + " Hrs " + diff_minutes + " Min " + d4 + " secs");
+            //alert(cashOnHandInput.value);
+        }
+        function loadModelVariablesFromHash(){
+            // set up defaults (or load querystring inputs)
+            v = $.bbq.getState();
+            if ( (null == v) || (null == v.ModelName) ) {
+                modelVariables = defaultParms;
+            }
+            else {
+                modelVariables = v;
+                // derived variables
+                monthlyBurnRatePerUser = modelVariables.BurnRateVariable / modelVariables.InitialUserCount;
+                monthlyIncomePerUser = modelVariables.InitialMonthlyIncome / modelVariables.InitialUserCount;
+                fillArray();
+                findInterestingEvent();
+            }
+        }
+        $(document).ready(function () {
+            loadModelVariablesFromHash();
+            stuffModelVariablesIntoBoxes();
+            displayIntervalID = window.setInterval(updateDisplay, 500);
+            $("#enterModelData").effect("pulsate", {}, 750, null);
+        });
+        $(function () {
+            $("#startDateInput").datepicker();
+            $(window).bind('hashchange', function (e) {
+                loadModelVariablesFromHash();
+                stuffModelVariablesIntoBoxes();
+            });
+        });
+        </script>
+    <script type="text/javascript">
+        window.google_analytics_uacct = "UA-1932542-18";
+    </script>
+</head>
+<body>
+    <a name="top" id="top"></a>
+    <div id="outerContainer">
+        <div id="header" class="ui-corner-all ui-widget-header">
+            <div id="logo">
+                <a href="http://hn-books.com"><img src="http://hn-books.com/images/icons/hnIconBooks1.png" alt="hnBooks Logo" width="42" height="42" /></a>
+            </div>
+        <div id="rssFeed">
+                <a href="http://hn-books.com/rss.xml"><img src="http://hn-books.com/images/icons/hnIconRSS1.png" alt="hnBooks Logo" width="42" height="42" /></a>
+        </div>
+            <div class="headerText">
+                <div class="span-24" id="headerItemPage">
+                    <div class="span-5 firstHeaderItem"><a href="http://www.hn-books.com">hacker books</a></div>
+                    <div class="span-5 askLink">ask question</div>
+                    <div class="span-5 answerLink"><a href="http://www.hn-books.com/AnswerQuestion.htm">answer question</a></div>
+                    <div class="span-4"><a href="http://hn-books.com/EZ-Business-Model.htm">ez biz model</a></div>
+                    <div class="span-4 last faqLink lastHeaderItem">faq</div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="span-24">
+            <div class="span-24">
+                
+                    <h1>
+                        <span id="modelTitle"></span>
+                    </h1>
+                    <h2>
+                        <br/>
+                        <div class="displayFace"  id="display" style="font-size:3em;">
+                            Page is loading<br /><br />
+                            Nothing to see here<br/><br />
+                            Please move along
+                            <noscript>
+                            This page is a javascript implementation of a business model
+                            <br />There's no way it's going to work without javascript. Sorry
+                            </noscript>
+                        </div>
+                    </h2>
+                    <br/>
+                    <br/>
+                <hr />
+            </div>
+            <div class="span-7 colborder">
+                <h2>
+                    what's happening on<br/>
+                    the rest of the site
+                    <br/>
+                    <br/>
+                </h2>
+                <fb:like-box href="http://www.facebook.com/pages/Hn-books/176636875710129" width="292" show_faces="true" stream="true" header="true"></fb:like-box>
+                <br />
+                <br />
+                <h2>
+                    recent reviews
+                </h2>
+                <ol id="recentReviews" style="list-style-type:none;">
+                    <li id="recentContentItem2" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/Zen-And-The-Art-Of-Motorcycle-Maintenance.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Zen and the Art of Motorcylce Maintenance
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem3" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/The-Sparrow.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                The Sparrow
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem4" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/SEOMoz.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                SEOMoz
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li1" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/The-Mythical-Man-Month.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Mythical Man-Month
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li2" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/Code-Complete.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Code Complete
+                            </div>
+                        </a>
+                    </li>
+                    <li id="Li3" class="ui-widget-content">
+                        <a href="http://www.hn-books.com/Books/The-Pragmatic-Programmer.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                Pragmatic Programmer: From Journeyman to Master
+                            </div>
+                        </a>
+                    </li>
+                    <li id="recentContentItem1" class="ui-widget-content">
+                        <a href="http://hn-books.com/Books/This-Perfect-Day.htm" style="text-decoration:none;">
+                            <div class="questionWidget">
+                                This Perfect Day
+                            </div>
+                        </a>
+                    </li>
+                </ol>
+                <br />
+                <hr />
+
+
+
+
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <!--[if IE]>
+                    <style type="text/css" media="screen">
+	                    #mc_embed_signup fieldset {position: relative;}
+	                    #mc_embed_signup legend {position: absolute; top: -1em; left: .2em;}
+                    </style>
+                    <![endif]--> 
+                    <!--[if IE 7]>
+                    <style type="text/css" media="screen">
+	                    .mc-field-group {overflow:visible;}
+                    </style>
+                    <![endif]-->
+                    <script type="text/javascript">
+                        function toggleMailSignup(sender) {
+                            if ($('#mailSignupOuter').is(":hidden")) {
+                                $('#mailSignupOuter').slideDown("slow");
+                            } else {
+                                $('#mailSignupOuter').slideUp("slow");
+                            }
+                        }
+                    </script>
+                    <div id="mc_embed_signup">
+                    <form action="http://bedfordtechgroup.us1.list-manage.com/subscribe/post?u=c967b6f001a02e1473d350342&amp;id=3df3462b26" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial, sans-serif;font-size: 10px;">
+	                    <fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #ccc;padding-top: 1.5em;margin: .5em 0;background-color: #FFFFFF;color: #000;text-align: left;">
+    	                    <legend style="white-space: normal;text-transform: capitalize;font-weight: bold;color: #000;background: #fff;padding: .5em 1em;border: 1px solid #ccc;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;"><span style="cursor:pointer;" onclick="toggleMailSignup('this');">join our mailing list</span></legend>
+                            <div id="mailSignupOuter" style="display:none;">
+                                <div class="indicate-required" style="text-align: right;font-style: italic;overflow: hidden;color: #000;margin: 0 9% 0 0;">* indicates required</div>
+                                <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-EMAIL" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Address <strong class="note-required">*</strong>
+                                </label>
+                                <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                                </div>
+                                <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-FNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">First Name </label>
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                            </div>
+                            <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label for="mce-LNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Last Name </label>
+                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+                            </div>
+                            <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+                                <label class="input-group-label" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Format </label>
+                                <div class="input-group" style="padding: .7em .7em .7em 0;font-size: .9em;margin: 0 0 1em 0;">
+                                <ul style="margin: 0;padding: 0;"><li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-0" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">html</label></li>
+                            <li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-1" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">text</label></li>
+                            <li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="radio" value="mobile" name="EMAILTYPE" id="mce-EMAILTYPE-2" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-EMAILTYPE-2" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left !important;">mobile</label></li>
+                            </ul>
+                                </div>
+                            </div>
+		                            <div id="mce-responses" style="float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;">
+			                            <div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: FBE3E4;color: #D12F19;"></div>
+			                            <div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #E3FBE4;color: #529214;"></div>
+		                            </div>
+		                            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;"></div>
+	                        </fieldset>	
+	                        <a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
+                    </form>
+                    </div>
+<!--                    <script  type="text/javascript">
+                        try {
+                            var jqueryLoaded = jQuery;
+                            jqueryLoaded = true;
+                        } catch (err) {
+                            var jqueryLoaded = false;
+                        }
+                        if (!jqueryLoaded) {
+                            var head = document.getElementsByTagName('head')[0];
+                            var script = document.createElement('script');
+                            script.type = 'text/javascript';
+                            script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+                            head.appendChild(script);
+                        }
+                    </script>
+-->
+                    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
+
+                    <script type="text/javascript">
+                        var fnames = new Array(); var ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; var err_style = '';
+                        try {
+                            err_style = mc_custom_error_style;
+                        } catch (e) {
+                            err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: FFEEEE none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: FF0000;';
+                        }
+                        var head = document.getElementsByTagName('head')[0];
+                        var style = document.createElement('style');
+                        style.type = 'text/css';
+                        if (style.styleSheet) {
+                            style.styleSheet.cssText = '.mce_inline_error {' + err_style + '}';
+                        } else {
+                            style.appendChild(document.createTextNode('.mce_inline_error {' + err_style + '}'));
+                        }
+                        head.appendChild(style);
+                        $(document).ready(function ($) {
+                            var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function () { }, onfocusout: function () { }, onblur: function () { } };
+                            var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+                            options = { url: 'http://bedfordtechgroup.us1.list-manage2.com/subscribe/post-json?u=c967b6f001a02e1473d350342&id=3df3462b26&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                                beforeSubmit: function () {
+                                    $('#mce_tmp_error_msg').remove();
+                                    $('.datefield', '#mc_embed_signup').each(
+                                            function () {
+                                                var txt = 'filled';
+                                                var fields = new Array();
+                                                var i = 0;
+                                                $(':text', this).each(
+                                                    function () {
+                                                        fields[i] = this;
+                                                        i++;
+                                                    });
+                                                $(':hidden', this).each(
+                                                    function () {
+                                                        if (fields[0].value == 'MM' && fields[1].value == 'DD' && fields[2].value == 'YYYY') {
+                                                            this.value = '';
+                                                        } else if (fields[0].value == '' && fields[1].value == '' && fields[2].value == '') {
+                                                            this.value = '';
+                                                        } else {
+                                                            this.value = fields[0].value + '/' + fields[1].value + '/' + fields[2].value;
+                                                        }
+                                                    });
+                                            });
+                                    return mce_validator.form();
+                                },
+                                success: mce_success_cb
+                            };
+                            $('#mc-embedded-subscribe-form').ajaxForm(options);
+
+                        });
+                        function mce_success_cb(resp) {
+                            $('#mce-success-response').hide();
+                            $('#mce-error-response').hide();
+                            if (resp.result == "success") {
+                                $('#mce-' + resp.result + '-response').show();
+                                $('#mce-' + resp.result + '-response').html(resp.msg);
+                                $('#mc-embedded-subscribe-form').each(function () {
+                                    this.reset();
+                                });
+                            } else {
+                                var index = -1;
+                                var msg;
+                                try {
+                                    var parts = resp.msg.split(' - ', 2);
+                                    if (parts[1] == undefined) {
+                                        msg = resp.msg;
+                                    } else {
+                                        i = parseInt(parts[0]);
+                                        if (i.toString() == parts[0]) {
+                                            index = parts[0];
+                                            msg = parts[1];
+                                        } else {
+                                            index = -1;
+                                            msg = resp.msg;
+                                        }
+                                    }
+                                } catch (e) {
+                                    index = -1;
+                                    msg = resp.msg;
+                                }
+                                try {
+                                    if (index == -1) {
+                                        $('#mce-' + resp.result + '-response').show();
+                                        $('#mce-' + resp.result + '-response').html(msg);
+                                    } else {
+                                        err_id = 'mce_tmp_error_msg';
+                                        html = '<div id="' + err_id + '" style="' + err_style + '"> ' + msg + '</div>';
+-
+                                        var input_id = '#mc_embed_signup';
+                                        var f = $(input_id);
+                                        if (ftypes[index] == 'address') {
+                                            input_id = '#mce-' + fnames[index] + '-addr1';
+                                            f = $(input_id).parent().parent().get(0);
+                                        } else if (ftypes[index] == 'date') {
+                                            input_id = '#mce-' + fnames[index] + '-month';
+                                            f = $(input_id).parent().parent().get(0);
+                                        } else {
+                                            input_id = '#mce-' + fnames[index];
+                                            f = $().parent(input_id).get(0);
+                                        }
+                                        if (f) {
+                                            $(f).append(html);
+                                            $(input_id).focus();
+                                        } else {
+                                            $('#mce-' + resp.result + '-response').show();
+                                            $('#mce-' + resp.result + '-response').html(msg);
+                                        }
+                                    }
+                                } catch (e) {
+                                    $('#mce-' + resp.result + '-response').show();
+                                    $('#mce-' + resp.result + '-response').html(msg);
+                                }
+                            }
+                        }
+                    </script>
+                    <!--End mc_embed_signup-->
+
+
+
+
+
+
+                <hr />
+                <br />
+                <div style="padding-left: 3em;"><a href="mailto:DanielBMarkham@gmail.com?subject=I'm interested in advertising?body=Tell me more about pay-per-day advertising">
+                    <img src="http://s3.amazonaws.com/hnb/YourAdHere.png" alt="Your Ad Here" /></a></div>
+                    <br />
+                    <br />
+                    <hr />
+                <h4>find stuff on Google</h4>
+                <form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+                    <div>
+                        <input type="hidden" name="cx" value="partner-pub-5378398786267370:gnvlcv-ar00" />
+                        <input type="hidden" name="ie" value="ISO-8859-1" />
+                        <input type="text" name="q" size="28" style="height:1.5em" />
+                        <br />
+                        <br />
+                        <div style="text-align:center"><button type="submit" name="sa" value="Search" style="width:60%; margin-left:20%;">Search</button></div>
+                    </div>
+                </form>
+                <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+                <br />
+                <br />*                <hr />
+                <script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script>
+                <br />
+                <br />
+                <script type="text/javascript">
+                    (function () {
+                        var hn_link = "http://news.ycombinator.com/submitlink?u=";
+                        if (window.hn_url) {
+                            hn_link += encodeURIComponent(hn_url);
+                        }
+                        else {
+                            hn_link += encodeURIComponent(document.location);
+                        }
+                        if (window.hn_title) {
+                            hn_link += "&t=" + encodeURIComponent(hn_title);
+                        }
+                        else {
+                            hn_link += "&t=" + encodeURIComponent(document.title);
+                        }
+
+                        var write_string = "<a href=" + hn_link + "><img src='http://ycombinator.com/images/y18.gif' alt='Hacker News' width=18 height=18 style='border:1px #ffffff solid;'/></a><a href=" + hn_link + " alink='#000000'; vlink='#828282' style='text-decoration:none' target='_blank'><span style='font-family:Verdana; font-size: 10pt; color:#828282;'><b>Submit</b></span></a>";
+                        document.write(write_string);
+                    })()                
+                </script>
+                <br />
+                <br />
+                <script type="text/javascript">
+
+                    (function () {
+                        var write_string = "<iframe src=\"http://reddit.com/static/button/button1.html?width=120&url=";
+                        if (window.reddit_url) { write_string += encodeURIComponent(reddit_url); }
+                        else { write_string += encodeURIComponent('http://saicharan.in/blog/2009/07/hn-submit-button/'); }
+                        if (window.reddit_title) {
+                            write_string += '&title=' + encodeURIComponent(window.reddit_title);
+                        }
+                        if (window.reddit_css) {
+                            write_string += '&css=' + encodeURIComponent(window.reddit_css);
+                        }
+                        if (window.reddit_bgcolor) {
+                            write_string += '&bgcolor=' + encodeURIComponent(window.reddit_bgcolor);
+                        }
+                        if (window.reddit_bordercolor) {
+                            write_string += '&bordercolor=' + encodeURIComponent(window.reddit_bordercolor);
+                        }
+                        if (window.reddit_newwindow) {
+                            write_string += '&newwindow=' + encodeURIComponent(window.reddit_newwindow);
+                        }
+                        write_string += "\" height=\"22\" width=\"120\" scrolling='no' frameborder='0'></iframe>";
+                        document.write(write_string);
+                    })()                
+                </script>
+                <br />
+                <br />
+                <script type="text/javascript">                
+                    (function() {
+                    var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'http://widgets.digg.com/buttons.js';
+                    s1.parentNode.insertBefore(s, s1);
+                    })();
+                    </script>
+                    <!-- Medium Button -->
+                    <a class="DiggThisButton DiggMedium"></a>
+                <br />
+                <br />
+                <div style='text-align:center;'>
+                <script type="text/javascript">
+                    var dzone_url = '<data:post.url/>';
+                </script>
+                <script type="text/javascript">
+                    var dzone_title = '<data:post.title/>';
+                </script>
+                <script type="text/javascript">
+                    var dzone_style = '1';
+                </script>
+                <script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"> </script>
+                </div>                
+                <br />
+                <br />
+                <hr />
+                <script type="text/javascript"><!--
+                    google_ad_client = "pub-5378398786267370";
+                    /* HN-Books 200x200, created 10/11/10 */
+                    google_ad_slot = "8036842933";
+                    google_ad_width = 200;
+                    google_ad_height = 200;
+        //-->
+                </script>
+                <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            
+            </div>
+            <div class="span-15 last" style="text-align: left;">
+
+
+                <div style="width:100%; text-align:center; font-style:italic;">
+                    as you change the parameters, the link changes, allowing you to bookmark, save, and share your settings
+                    <br />
+                    create a model/link, then use as a wallboard to stay motivated, share link on Twitter/FB, etc
+                </div>
+
+                    <script type="text/javascript">
+                        function toggleModelParameters(sender) {
+                            if ($('#modelParametersOuter').is(":hidden")) {
+                                $('#modelParametersOuter').slideDown("slow");
+                            } else {
+                                $('#modelParametersOuter').slideUp("slow");
+                            }
+                        }
+                    </script>
+                    <div>
+                        <fieldset>
+                            <legend>
+                                <span style="cursor:pointer;" id="enterModelData" onclick="toggleModelParameters('this');">enter model data (click here)</span>
+                            </legend>
+                            <div id="modelParametersOuter" style="display:none;">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        <input type="button" id="Button3" value="Reset" onclick="{window.location.href='EZ-Business-Model.htm';};"/>
+                                        <input type="button" id="Button1" value="Update" onclick="boxesHaveChanged(this);"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Model name
+                                        <br />
+                                        </td>
+                                        <td>
+                                            <input type="text" id="modelNameInput" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Start date
+                                            <input type="button" id="btnMakeToday" value="Make Today" onclick="{$('#startDateInput').datepicker('setDate', new Date());};" />
+                                        </td>
+                                        <td><input type="text" id="startDateInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cash on hand</td>
+                                        <td><input type="text" id="cashOnHandInput" value="9" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Initial Monthly Income</td>
+                                        <td><input type="text" id="initialMonthlyIncomeInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Initial user count</td>
+                                        <td><input type="text" id="initialUserCountInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Burn-rate, fixed
+                                        <br />(Doesn't change based on the number of users/prospects)</td>
+                                        <td><input type="text" id="burnRateFixedInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Burn-rate, variable
+                                        <br />(Changes based on number of prospects/users)</td>
+                                        <td><input type="text" id="burnRateVariableInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monthly Organic Prospects
+                                        <br /> (For a website, readers who visit using a search engine. 
+                                        <br /> For other businesses, the "natural" amount of people
+                                        <br /> that contact you and ask about your business without 
+                                        <br /> your actively having to pay to find them)</td>
+                                        <td><input type="text" id="monthlyOrganicProspects"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prospect-to-customer conversion rate
+                                        <br />For every prospect that contacts you,
+                                        </br> what percentage becoms a customer?)</td>
+                                        <td><input type="text" id="prospectCustomerConversionRate"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cost to "buy" a prospect - to have a person inquire
+                                        (Could be marketing, adwords, door-hanging, contests, etc) </td>
+                                        <td><input type="text" id="costToBuyAProspect"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Average number of sales events per user per month
+                                        </td>
+                                        <td><input type="text" id="averageSalesEventsPerUserPerMonth"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Monthly customer attrition rate
+                                        </td>
+                                        <td><input type="text" id="monthlyCustomerAttritionRate"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Network effect
+                                            <br />(% chance per month that a user is going to convert another person
+                                            <br />into a prospect without any effort on your part)
+                                        </td>
+                                        <td><input type="text" id="networkEffectInput"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Monthly growth rate you're willing to pay for
+                                        </td>
+                                        <td><input type="text" id="growthRateYoureWillingToPayFor"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        <input type="button" id="Button4" value="Reset" onclick="{window.location.href='EZ-Business-Model.htm';};"/>
+                                        <input type="button" id="btnUpdate" value="Update" onclick="boxesHaveChanged(this);"/></td>
+                                    </tr>
+                                </table>
+                                <br />
+                            </div>
+                        </fieldset>
+                        <em>Once you click the update button, a downloadable model of your growth is created at bottom of page</em>
+                    </div>
+                    <br />
+                    <h2>
+                        try these models (based on wild, unfounded guesses)
+                    </h2>
+                    <ul>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=5&BurnRateFixed=20000000&BurnRateVariable=5000000&CashOnHand=5000000&CostToBuyAProspect=0.1&GrowthRateYoureWillingToPayFor=0&InitialMonthlyIncome=100000000&InitialUserCount=500000000&ModelName=FACEBOOK&MonthlyCustomerAttritionRate=0.001&MonthlyOrganicProspects=50000&NetworkEffect=0.15&ProspectToCustomerConversionRate=0.04&StartDate=01/01/2011">Facebook</a></li>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=1&BurnRateFixed=200000&BurnRateVariable=2500000&CashOnHand=200000000&CostToBuyAProspect=0.1&GrowthRateYoureWillingToPayFor=0&InitialMonthlyIncome=0&InitialUserCount=100000000&ModelName=TWITTER&MonthlyCustomerAttritionRate=0&MonthlyOrganicProspects=0&NetworkEffect=0.06&ProspectToCustomerConversionRate=0.25&StartDate=02/01/2011">Twitter</a></li>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=1&BurnRateFixed=3500000&BurnRateVariable=5500000&CashOnHand=750000000&CostToBuyAProspect=2.5&GrowthRateYoureWillingToPayFor=0&InitialMonthlyIncome=1500000&InitialUserCount=100000000&ModelName=LINKEDIN&MonthlyCustomerAttritionRate=0.05&MonthlyOrganicProspects=15000&NetworkEffect=0.05&ProspectToCustomerConversionRate=0.02&StartDate=09/01/2010">LinkedIn</a></li>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=1&BurnRateFixed=150000&BurnRateVariable=3500&CashOnHand=41000000&CostToBuyAProspect=2.5&GrowthRateYoureWillingToPayFor=0.05&InitialMonthlyIncome=0&InitialUserCount=12500&ModelName=COLOR&MonthlyCustomerAttritionRate=0.15&MonthlyOrganicProspects=5000&NetworkEffect=.01&ProspectToCustomerConversionRate=0.02&StartDate=03/01/2011">Color</a></li>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=1&BurnRateFixed=20&BurnRateVariable=35&CashOnHand=500&CostToBuyAProspect=2.5&GrowthRateYoureWillingToPayFor=0.01&InitialMonthlyIncome=17.5&InitialUserCount=15000&ModelName=my+website&MonthlyCustomerAttritionRate=0.05&MonthlyOrganicProspects=100&NetworkEffect=0&ProspectToCustomerConversionRate=0.02&StartDate=03/29/2011">Sample Blogging Website</a></li>
+                        <li><a href="http://hn-books.com/EZ-Business-Model.htm#AverageSalesEventsPerUserPerMonth=1&BurnRateFixed=2500&BurnRateVariable=0&CashOnHand=15000&CostToBuyAProspect=2.5&GrowthRateYoureWillingToPayFor=0.1&InitialMonthlyIncome=10&InitialUserCount=50&ModelName=SUPER+WHIZ-BANG&MonthlyCustomerAttritionRate=0.1&MonthlyOrganicProspects=100&NetworkEffect=0&ProspectToCustomerConversionRate=0.02&StartDate=01/01/2011">Super WhizBang iPhone App</a></li>
+                    </ul>
+                    <em>(after clicking the link, you may need to scroll back to the top to see the countdown)</em>
+                    <br />
+                    <br />
+                    <hr />
+                    <fb:login-button autologoutlink="true"></fb:login-button>&nbsp;&nbsp;&nbsp;<fb:like></fb:like><br/>
+                    <h2>comments</h2>
+                    <div id="fb-root"></div>
+                    <fb:comments href="http://hn-books.com/EZ-Business-Model.htm" num_posts="30" width="540; font-size:smaller;"></fb:comments>
+                    <a name="the_take"></a>
+                    <br />
+                    <div id="lf_comment_stream"></div>
+                    <script type="text/javascript">
+                    $jl('#lf_comment_stream').bind('loaded.livefyre', function(e) {
+                       LF({
+                           blogname:'810', // hn-books.com
+                           domain:'rooms.livefyre.com',
+                           article:'Startup-Death-Clock++', // e.g. '12315'
+                       });
+                    });
+                    </script>
+
+                    <br /><br /><hr />
+                    <h2>the model</h2>
+                    <div id="modelTableOutput">
+                    <table id="modelTable" width="540px" style="font-size:smaller;">
+                    
+                    </table>
+                    </div>
+                    <br /><br /><hr />
+                    <h2>monthly income, expenses, and cash balance</h2>
+                    <div id="graphPlaceholder" style="width:540px;height:300px"></div>
+                    <br/>
+            </div>
+            <div style="display: none">
+                <div id="faqExplain">
+                    <h3>
+                        What is this?</h3>
+                    <p>
+                        A while back <a href="http://www.whattofix.com/blog/archives/2010/10/top-dozen-hacke.php">
+                            I wrote an article on my blog</a> listing all the books that hackers recommended
+                        to each other from the site <a href="http://news.ycombinator.com/news">HackerNews</a>.
+                        The purpose was to provide a place to list book recommendations so that people didn't
+                        have to type in the same list over and over again. (HN gets several requests for
+                        book recommendations a week. I also get at least a couple each month). <a href="http://news.ycombinator.com/item?id=1755422">
+                            It was very well received</a>, and <a href="http://news.ycombinator.com/item?id=1758059">
+                            </a>many posters and commenters either asked that I make a site or sent me an
+                        email asking me to do so.</p>
+                    <h3>
+                        How is this any different from the list on the blog?</h3>
+                    <p>
+                        This list has more books. This list is sortable both by what question you have and
+                        your skill level. In addition, once you sort the list, <strong>you can save the link
+                            with your sort and send it to somebody else.</strong> So, for instance, when
+                        somebody wants a book for noobs learning to program, you can make a link for that
+                        and then reuse it</p>
+                    <h3>
+                        How did you collect these books?</h3>
+                    <p>
+                        Initially the list came from Googling HackerNews.com "best book" and taking the
+                        books from the first few pages returned. Later, I added all the books that were
+                        mentioned "You left that out!" when Jacques posted the link. While adding <em>those
+                        </em>books, I came across a Stack Overflow link where programmers were asked to
+                        list their favorite tech books, so I included those too.</p>
+                    <h3>
+                        If I ask you to put a book on here, will you?</h3>
+                    <p>
+                        It depends.</p>
+                    <p>
+                        These books were all gathered by finding places where hackers hang out and are suggesting
+                        books to other hackers and other hackers agree with them by voting up their suggestion.
+                        If I can find an example of this for your book, I'm happy to include it.</p>
+                    <h3>
+                        How are the books ranked?</h3>
+                    <p>
+                        I did the best I could with ranking. I am sure there are many things you do not
+                        agree with. It would be possible to add voting and personal ranking -- that would
+                        make the system much better. Heck, you could rank the books yourself and use it
+                        as a customized book list to show to people who want your advice. I'd like to do
+                        that, but if I've learned anything is to not let your featureset get ahead of the
+                        users. This first version will test the waters to see what kind of interest the
+                        community might have.</p>
+                </div>
+            </div>
+        </div>
+            <div id="footer" class="span-24 clear last">
+                <br />
+                <hr />
+                <br />
+                <p style="text-align: center">
+                    questions about this site, contact the webmaster at <a href="mailto:Daniel@hn-books.com">
+                        Daniel@hn-books.com</a></p>
+                <h4>if you've enjoyed our <strong>Startup Death Clock</strong>, <a href="http://hn-books.com">take a look at our main page</a></h4>
+            </div>
+
+        </div>
+    </div>
+<!--    <script type="text/javascript">
+        $('#tabs').tabs();
+        $("button").button();
+    </script>
+-->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1932542-18']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+                <div id="wufoo-form-ideas">
+                    <!-- embed code here -->
+                    <script type="text/javascript">                        var host = (("https:" == document.location.protocol) ? "https://secure." : "http://"); document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+                    <script type="text/javascript">
+                        var k7x2w5 = new WufooForm();
+                        k7x2w5.initialize({
+                            'userName': 'bedfordtechgroup',
+                            'formHash': 'k7x2w5',
+                            'autoResize': true,
+                            'height': '716'
+                        });
+                        k7x2w5.display();
+                    </script>
+                </div>
+                <div id="wufoo-form-askaquestion">
+                    <!-- embed code here -->
+                    <script type="text/javascript">                        var host = (("https:" == document.location.protocol) ? "https://secure." : "http://"); document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+                    <script type="text/javascript">
+                        var z7x2r7 = new WufooForm();
+                        z7x2r7.initialize({
+                            'userName': 'bedfordtechgroup',
+                            'formHash': 'z7x2r7',
+                            'autoResize': true,
+                            'height': '383'
+                        });
+                        z7x2r7.display();
+                    </script>
+                </div>
+<script type="text/javascript">
+    var t = $("#cse-search-box input");
+    t.css('height', '2em');
+    //t.css('background-color', 'Red');
+</script>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({ appId: '199301083424171', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+        (function () {
+            var e = document.createElement('script');
+            e.type = 'text/javascript';
+            e.src = document.location.protocol +
+          '//connect.facebook.net/en_US/all.js';
+            e.async = true;
+            document.getElementById('fb-root').appendChild(e);
+        } ());
+    </script>
+    <script src="http://connect.facebook.net/en_US/all.js#appid=199301083424171&amp;xbfml=1"></script>
+</body>
+</html>
